@@ -1,0 +1,1 @@
+hud.current_word =hud.current_word+myID
