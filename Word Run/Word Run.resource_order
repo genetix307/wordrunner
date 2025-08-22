@@ -4,6 +4,8 @@
     {"name":"Environment","order":1,"path":"folders/Objects/Environment.yy",},
     {"name":"Effects","order":2,"path":"folders/Scripts/Effects.yy",},
     {"name":"Perks","order":1,"path":"folders/Scripts/Perks.yy",},
+    {"name":"Environment","order":2,"path":"folders/Sprites/Environment.yy",},
+    {"name":"Backdrops","order":1,"path":"folders/Sprites/Environment/Backdrops.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"AdMobIronSource","order":1,"path":"extensions/AdMobIronSource/AdMobIronSource.yy",},
@@ -18,6 +20,7 @@
     {"name":"btn_bgm","order":2,"path":"objects/btn_bgm/btn_bgm.yy",},
     {"name":"btn_check_word","order":1,"path":"objects/btn_check_word/btn_check_word.yy",},
     {"name":"btn_clear_progress","order":14,"path":"objects/btn_clear_progress/btn_clear_progress.yy",},
+    {"name":"btn_clear_word","order":2,"path":"objects/btn_clear_word/btn_clear_word.yy",},
     {"name":"btn_code","order":7,"path":"objects/btn_code/btn_code.yy",},
     {"name":"btn_credits","order":8,"path":"objects/btn_credits/btn_credits.yy",},
     {"name":"btn_discord","order":6,"path":"objects/btn_discord/btn_discord.yy",},

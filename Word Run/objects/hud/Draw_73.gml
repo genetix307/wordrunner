@@ -6,9 +6,13 @@ var cy = camera_get_view_y(view_camera[0]);
 //draw_stats()
 
 draw_set_font(font_large_hud)
-draw_text_color(2,2,"$"+calc_number(store.run_score),c_lime,c_lime,c_lime,c_lime,1)
+draw_text_color(174,10,"Round "+calc_number(store.current_round),c_black,c_black,c_black,c_black,1)
+draw_text_color(172,8,"Round "+calc_number(store.current_round),c_white,c_silver,c_white,c_silver,1)
 
-draw_text(70,140,string(current_word))
+draw_rectangle_color(70,139,410,175,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
+draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
+
+draw_text(80,140,string(current_word))
 
 //Draw Current Stage & tier
 /*

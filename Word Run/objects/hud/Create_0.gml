@@ -11,19 +11,8 @@ alarm[0]=240 //Show tutorial
 
 current_word=""
 
-//Status Boosts
-//template_boost=0
 
-//CARDS
-//Template Card
-//if store.card_slot_1 = 1 or store.card_slot_2 = 1 or store.card_slot_3 = 1 or store.card_slot_4 = 1
-//	{
-//		if store.current_stage=1 {store.gold +=store.card_lvl_inheritance*5+25}
-//	}
 
-//PERKS
-//Template
-//if store.perk_lvl_template>0 {store.gold+=store.perk_lvl_template*50}
 
 
 
