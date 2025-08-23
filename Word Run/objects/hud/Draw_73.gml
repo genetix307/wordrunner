@@ -8,11 +8,23 @@ var cy = camera_get_view_y(view_camera[0]);
 draw_set_font(font_large_hud)
 draw_text_color(174,10,"Round "+calc_number(store.current_round),c_black,c_black,c_black,c_black,1)
 draw_text_color(172,8,"Round "+calc_number(store.current_round),c_white,c_silver,c_white,c_silver,1)
+draw_set_font(font_med_hud)
+draw_text_color(174,45,"Score: "+calc_number(current_score)+"/"+calc_number(score_needed),c_black,c_black,c_black,c_black,1)
+draw_text_color(172,43,"Score: "+calc_number(current_score)+"/"+calc_number(score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 draw_rectangle_color(70,139,410,175,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
 draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
 
+//Show Word
+draw_set_font(font_large_hud)
 draw_text(80,140,string(current_word))
+
+draw_set_font(font_med_hud)
+draw_text_color(174,180,"Base Score: "+calc_number(total_base_value),c_black,c_black,c_black,c_black,1)
+draw_text_color(172,182,"Base Score: "+calc_number(total_base_value),c_white,c_silver,c_white,c_silver,1)
+
+draw_text_color(174,200,"Length Bonus: "+calc_number(length_bonus),c_black,c_black,c_black,c_black,1)
+draw_text_color(172,202,"Length Bonus: "+calc_number(length_bonus),c_white,c_silver,c_white,c_silver,1)
 
 //Draw Current Stage & tier
 /*

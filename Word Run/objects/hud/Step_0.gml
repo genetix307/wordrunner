@@ -1,4 +1,5 @@
 if show_stage>0 {show_stage-=.01*store.game_speed }
+length_bonus=string_length(current_word)
 
 //Stage Complete
 //if stage_complete=1 and game_paused=0 {
