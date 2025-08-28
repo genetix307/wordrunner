@@ -8,9 +8,14 @@ ini_write_real( "save1", "game_speed", store.game_speed);
 ini_write_real( "save1", "sfx_volume", store.sfx_volume);
 ini_write_real( "save1", "bgm_volume", store.bgm_volume);
 ini_write_real( "save1", "bonus_discord", store.bonus_discord);
-//ini_write_real( "save1", "auto_perk", store.auto_perk);
 ini_write_real( "save1", "ads_watched", store.ads_watched);
 
+//Ingame Stats
+ini_write_real( "save1", "current_round", store.current_round);
+ini_write_real( "save1", "lives", store.lives);
+ini_write_real( "save1", "shuffles", store.shuffles);
+ini_write_real( "save1", "current_score", store.current_score);
+ini_write_real( "save1", "score_needed", store.score_needed);
 
 //Perm 
 ini_write_real( "save1", "gems", store.gems);
@@ -29,8 +34,6 @@ ini_write_real( "save1", "challenges_completed", store.challenges_completed);
 ini_write_real( "save1", "code_payday", store.code_payday);
 ini_write_real( "save1", "code_kickstart", store.code_kickstart);
 ini_write_real( "save1", "code_lotto", store.code_lotto);
-//Ingame Stats
-ini_write_real( "save1", "current_round", store.current_round);
 
 	
 	ini_close();

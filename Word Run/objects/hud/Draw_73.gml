@@ -9,8 +9,8 @@ draw_set_font(font_large_hud)
 draw_text_color(174,10,"Round "+calc_number(store.current_round),c_black,c_black,c_black,c_black,1)
 draw_text_color(172,8,"Round "+calc_number(store.current_round),c_white,c_silver,c_white,c_silver,1)
 draw_set_font(font_med_hud)
-draw_text_color(174,45,"Score: "+calc_number(current_score)+"/"+calc_number(score_needed),c_black,c_black,c_black,c_black,1)
-draw_text_color(172,43,"Score: "+calc_number(current_score)+"/"+calc_number(score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
+draw_text_color(174,45,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_black,c_black,c_black,c_black,1)
+draw_text_color(172,43,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 draw_rectangle_color(70,139,410,175,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
 draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
@@ -18,93 +18,21 @@ draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
 //Show Word
 draw_set_font(font_large_hud)
 draw_text(80,140,string(current_word))
-
 draw_set_font(font_med_hud)
 draw_text_color(174,180,"Base Score: "+calc_number(total_base_value),c_black,c_black,c_black,c_black,1)
 draw_text_color(172,182,"Base Score: "+calc_number(total_base_value),c_white,c_silver,c_white,c_silver,1)
-
 draw_text_color(174,200,"Length Bonus: "+calc_number(length_bonus),c_black,c_black,c_black,c_black,1)
 draw_text_color(172,202,"Length Bonus: "+calc_number(length_bonus),c_white,c_silver,c_white,c_silver,1)
 
-//Draw Current Stage & tier
-/*
-draw_set_font(font_stats)
-draw_set_color(c_black)
-draw_text(cx+184,cy+440,"Stage "+string(store.current_stage))   
-draw_text(cx+184,cy+452,"Tier "+string(1+floor(store.current_stage/101)))
-draw_set_color(c_white)
-draw_text(cx+182,cy+438,"Stage "+string(store.current_stage))
-draw_text(cx+182,cy+450,"Tier "+string(1+floor(store.current_stage/101)))
-*/
-//Draw Current Stage Banner
-/*
-if show_stage>0 {
-draw_set_alpha(show_stage)
-draw_set_color(c_black)
-draw_set_font(font_large_hud)
-draw_text(cx+124+banner_gap,cy+70,string(store.current_area))  
-draw_set_font(font_upgrades)
-draw_text(cx+204,cy+110,"Stage "+string(store.current_stage))              
-draw_set_color(c_white)
-draw_set_font(font_large_hud)
-draw_text(cx+124+banner_gap,cy+68,string(store.current_area))  
-draw_set_font(font_upgrades)
-draw_text(cx+202,cy+108,"Stage "+string(store.current_stage))
-draw_set_color(c_yellow)
-draw_line(cx+114,cy+67,cx+389,cy+67)
-draw_line(cx+114,cy+107,cx+389,cy+107)
-*/
+//Show Lives
+draw_set_font(font_med_hud)
+draw_text_color(124,384,"Lives: "+calc_number(store.lives),c_black,c_black,c_black,c_black,1)
+draw_text_color(122,382,"Lives: "+calc_number(store.lives),c_red,c_red,c_red,c_red,1)
+//Show Shuffles
+draw_set_font(font_med_hud)
+draw_text_color(124,404,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
+draw_text_color(122,402,"Shuffles: "+calc_number(store.shuffles),c_lime,c_lime,c_lime,c_lime,1)
 
-//Draw Gold
-/*
-draw_set_font(font_stats)
-draw_set_color(c_black)
-draw_text(cx+260,cy+440,"Gold")              
-draw_set_color(c_white)
-draw_text(cx+258,cy+438,"Gold")
-draw_sprite(spr_show_gold,0,cx+260,cy+465)
-if store.gold <=9999 {
-draw_set_color(c_black)
-draw_text(cx+275,cy+460,string(store.gold))              
-draw_set_color(c_yellow)
-draw_text(cx+273,cy+458,string(store.gold)) 
-}
-if store.gold >9999 {
-draw_set_color(c_black)
-draw_text(cx+275,cy+460,string(floor(store.gold/1000))+"K")              
-draw_set_color(c_yellow)
-draw_text(cx+273,cy+458,string(floor(store.gold/1000))+"K")    
-}
-*/
-
-//Draw Gems
-/*
-draw_set_font(font_stats)
-draw_set_color(c_black)
-draw_text(cx+330,cy+440,"Gems")              
-draw_set_color(c_white)
-draw_text(cx+328,cy+438,"Gems")
-draw_sprite(spr_show_gem,0,cx+330,cy+465)
-if store.gems <9999 {
-draw_set_color(c_black)
-draw_text(cx+347,cy+460,string(store.gems))              
-draw_set_color(c_yellow)
-draw_text(cx+345,cy+458,string(store.gems)) 
-}
-else {
-draw_set_color(c_black)
-draw_text(cx+347,cy+460,string(floor(store.gems/1000))+"K")              
-draw_set_color(c_yellow)
-draw_text(cx+345,cy+458,string(floor(store.gems/1000))+"K")    
-}
-*/
-//Draw Active Status
-/*
-draw_set_font(font_stats)
-draw_set_color(c_silver)
-if store.active_template>0 and store.active_template<3601 {draw_sprite(spr_item_templatepill,0,70,20) draw_text(64,28,string(round(store.active_template/60)))}
-if store.active_template>0 and store.active_template>3600 {draw_sprite(spr_item_templatepill,0,70,20) draw_text(64,28,string(ceil(store.active_template/3600))+"m")}
-*/
 //Draw Fade
 if show_fade>0 {
 draw_set_alpha(show_fade)

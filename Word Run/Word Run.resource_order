@@ -32,6 +32,7 @@
     {"name":"btn_rategame","order":15,"path":"objects/btn_rategame/btn_rategame.yy",},
     {"name":"btn_settings","order":5,"path":"objects/btn_settings/btn_settings.yy",},
     {"name":"btn_sfx","order":1,"path":"objects/btn_sfx/btn_sfx.yy",},
+    {"name":"btn_shuffle","order":3,"path":"objects/btn_shuffle/btn_shuffle.yy",},
     {"name":"btn_start_run","order":6,"path":"objects/btn_start_run/btn_start_run.yy",},
     {"name":"btn_statistics","order":9,"path":"objects/btn_statistics/btn_statistics.yy",},
     {"name":"chest_gems","order":2,"path":"objects/chest_gems/chest_gems.yy",},

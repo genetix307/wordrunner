@@ -8,10 +8,14 @@ store.game_speed=ini_read_real( "save1", "game_speed",store.game_speed);
 store.sfx_volume=ini_read_real( "save1", "sfx_volume",store.sfx_volume);
 store.bgm_volume=ini_read_real( "save1", "bgm_volume",store.bgm_volume);
 store.bonus_discord=ini_read_real( "save1", "bonus_discord",store.bonus_discord);
-//store.auto_perk=ini_read_real( "save1", "auto_perk",store.auto_perk);
 store.ads_watched=ini_read_real( "save1", "ads_watched",store.ads_watched);
+
 //In Game
 store.current_round=ini_read_real( "save1", "current_round",store.current_round);
+store.lives=ini_read_real( "save1", "lives",store.lives);
+store.shuffles=ini_read_real( "save1", "shuffles",store.shuffles);
+store.current_score=ini_read_real( "save1", "current_score",store.current_score);
+store.score_needed=ini_read_real( "save1", "score_needed",store.score_needed);
 
 //Statistics
 //store.best_stage=ini_read_real( "save1", "best_stage",store.best_stage);

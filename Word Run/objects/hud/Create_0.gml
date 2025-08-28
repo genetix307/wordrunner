@@ -12,8 +12,7 @@ alarm[0]=240 //Show tutorial
 current_word=""
 total_base_value=0
 length_bonus=0
-current_score=0
-score_needed=25
+
 
 
 
