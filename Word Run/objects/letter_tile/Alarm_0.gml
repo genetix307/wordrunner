@@ -1,5 +1,6 @@
 mySlot=0
-myID= choose("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+myID=choose("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+if 40>random(100) {myID=choose("A","D","E","H","I","N","O","R","S","T");}
 image_speed=0
 used=0
 

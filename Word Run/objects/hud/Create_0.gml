@@ -7,11 +7,12 @@ game_over=0
 stage_complete=0
 show_fade=1
 show_stage=3
-alarm[0]=240 //Show tutorial
+alarm[0]=30
 
 current_word=""
 total_base_value=0
 length_bonus=0
+show_valid=""
 
 
 

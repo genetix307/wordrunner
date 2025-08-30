@@ -2,18 +2,17 @@ if game_paused=0 {
 var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 
-//Draw Stats (HP/XP/etc)
-//draw_stats()
 
 draw_set_font(font_large_hud)
-draw_text_color(174,10,"Round "+calc_number(store.current_round),c_black,c_black,c_black,c_black,1)
-draw_text_color(172,8,"Round "+calc_number(store.current_round),c_white,c_silver,c_white,c_silver,1)
+draw_text_color(150,40,"Round "+calc_number(store.current_round)+"/10",c_black,c_black,c_black,c_black,1)
+draw_text_color(148,38,"Round "+calc_number(store.current_round)+"/10",c_white,c_silver,c_white,c_silver,1)
 draw_set_font(font_med_hud)
-draw_text_color(174,45,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_black,c_black,c_black,c_black,1)
-draw_text_color(172,43,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
+draw_text_color(188,75,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_black,c_black,c_black,c_black,1)
+draw_text_color(186,73,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 draw_rectangle_color(70,139,410,175,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
 draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
+draw_rectangle_color(71,140,409,174,c_green,c_green,c_green,c_green,true)
 
 //Show Word
 draw_set_font(font_large_hud)
@@ -23,15 +22,18 @@ draw_text_color(174,180,"Base Score: "+calc_number(total_base_value),c_black,c_b
 draw_text_color(172,182,"Base Score: "+calc_number(total_base_value),c_white,c_silver,c_white,c_silver,1)
 draw_text_color(174,200,"Length Bonus: "+calc_number(length_bonus),c_black,c_black,c_black,c_black,1)
 draw_text_color(172,202,"Length Bonus: "+calc_number(length_bonus),c_white,c_silver,c_white,c_silver,1)
+draw_text_color(174,220,show_valid,c_black,c_black,c_black,c_black,1)
+if show_valid="Valid Word" {draw_text_color(172,222,string(show_valid),c_lime,c_lime,c_lime,c_lime,1)}
+else {draw_text_color(172,222,string(show_valid),c_red,c_red,c_red,c_red,1)}
 
 //Show Lives
 draw_set_font(font_med_hud)
-draw_text_color(124,384,"Lives: "+calc_number(store.lives),c_black,c_black,c_black,c_black,1)
-draw_text_color(122,382,"Lives: "+calc_number(store.lives),c_red,c_red,c_red,c_red,1)
+draw_text_color(360,914,"Lives: "+calc_number(store.lives),c_black,c_black,c_black,c_black,1)
+draw_text_color(358,912,"Lives: "+calc_number(store.lives),c_yellow,c_yellow,c_yellow,c_yellow,1)
 //Show Shuffles
 draw_set_font(font_med_hud)
-draw_text_color(124,404,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
-draw_text_color(122,402,"Shuffles: "+calc_number(store.shuffles),c_lime,c_lime,c_lime,c_lime,1)
+draw_text_color(48,914,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
+draw_text_color(46,912,"Shuffles: "+calc_number(store.shuffles),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 //Draw Fade
 if show_fade>0 {

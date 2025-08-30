@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"set_bestiary",
+  "%Name":"check_word",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"set_bestiary",
+  "name":"check_word",
   "parent":{
     "name":"Misc",
     "path":"folders/Scripts/Misc.yy",
