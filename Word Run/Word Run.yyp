@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Word Run",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -44,13 +44,14 @@
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Sprites/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Settings","folderPath":"folders/Sprites/Menu/Settings.yy","name":"Settings","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"dictionary.txt","CopyToMask":-1,"filePath":"datafiles","name":"dictionary.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Word Run",
   "resources":[
@@ -87,6 +88,7 @@
     {"id":{"name":"btn_shuffle","path":"objects/btn_shuffle/btn_shuffle.yy",},},
     {"id":{"name":"btn_start_run","path":"objects/btn_start_run/btn_start_run.yy",},},
     {"id":{"name":"btn_statistics","path":"objects/btn_statistics/btn_statistics.yy",},},
+    {"id":{"name":"card_slot","path":"objects/card_slot/card_slot.yy",},},
     {"id":{"name":"chest_gems","path":"objects/chest_gems/chest_gems.yy",},},
     {"id":{"name":"effect_btn_press","path":"objects/effect_btn_press/effect_btn_press.yy",},},
     {"id":{"name":"effect_challenge","path":"objects/effect_challenge/effect_challenge.yy",},},
@@ -146,6 +148,7 @@
     {"id":{"name":"spr_bg_menu","path":"sprites/spr_bg_menu/spr_bg_menu.yy",},},
     {"id":{"name":"spr_btn_pause","path":"sprites/spr_btn_pause/spr_btn_pause.yy",},},
     {"id":{"name":"spr_button_discord","path":"sprites/spr_button_discord/spr_button_discord.yy",},},
+    {"id":{"name":"spr_card_back","path":"sprites/spr_card_back/spr_card_back.yy",},},
     {"id":{"name":"spr_chest_open","path":"sprites/spr_chest_open/spr_chest_open.yy",},},
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},},
     {"id":{"name":"spr_endround_backdrop","path":"sprites/spr_endround_backdrop/spr_endround_backdrop.yy",},},

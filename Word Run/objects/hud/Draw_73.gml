@@ -11,6 +11,7 @@ draw_text_color(188,75,"Score: "+calc_number(store.current_score)+"/"+calc_numbe
 draw_text_color(186,73,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 draw_rectangle_color(70,139,410,175,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
+if flash_play>0 {draw_set_alpha(flash_play) draw_rectangle_color(70,139,410,175,c_lime,c_lime,c_lime,c_lime,false) draw_set_alpha(1)}
 draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
 draw_rectangle_color(71,140,409,174,c_green,c_green,c_green,c_green,true)
 

@@ -19,8 +19,8 @@ length_bonus=string_length(current_word)
 if stage_complete=0 and show_fade>0 {show_fade-=.025*store.game_speed}
 
 //Active maintenance
-//if game_paused=0 {
-//if store.active_template>0 {store.active_template-=1*store.game_speed}
-//}
+if game_paused=0 {
+if flash_play>0 {flash_play-=.02}
+}
 
 

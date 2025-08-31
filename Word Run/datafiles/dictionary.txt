@@ -1,3 +1,5 @@
+a
+i
 aa
 aardvark
 aardvarks
@@ -5918,6 +5920,7 @@ bated
 bates
 batfish
 batfowl
+bath
 bathed
 bather
 bathers
@@ -63999,6 +64002,7 @@ sewers
 sewing
 sewn
 sews
+sex
 sexagenarian
 sexier
 sexiest
