@@ -91,5 +91,6 @@
     {"name":"spr_show_gem","order":4,"path":"sprites/spr_show_gem/spr_show_gem.yy",},
     {"name":"spr_show_lifesteal","order":2,"path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},
     {"name":"spr_tile","order":1,"path":"sprites/spr_tile/spr_tile.yy",},
+    {"name":"Sprite23","order":1,"path":"sprites/Sprite23/Sprite23.yy",},
   ],
 }
