@@ -3,5 +3,5 @@ store.shuffles-=1
 audio_play_sound(sfx_click,1,false)
 effect_btn()
 
-with letter_tile if used=0 {alarm[0]=1}
+with letter_tile if used=0 {alarm[0]=1 fade=1.25}
 }

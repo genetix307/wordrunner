@@ -1,4 +1,4 @@
-draw_self()
+//draw_self()
 
 if fade > 0 {
 	draw_set_color(c_black)

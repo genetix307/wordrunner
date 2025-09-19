@@ -1,6 +1,7 @@
 mySlot=0
 myID=choose("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
-if 40>random(100) {myID=choose("A","D","E","H","I","N","O","R","S","T");}
+if 20>random(100) {myID=choose("A","C","D","E","F","G","H","I","L","M","N","O","P","R","S","T","U","W","Y")}
+if 50>random(100) {myID=choose("A","D","E","H","I","N","O","R","S","T");}
 image_speed=0
 used=0
 
