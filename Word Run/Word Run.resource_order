@@ -5,7 +5,6 @@
     {"name":"Effects","order":2,"path":"folders/Scripts/Effects.yy",},
     {"name":"Perks","order":1,"path":"folders/Scripts/Perks.yy",},
     {"name":"Environment","order":2,"path":"folders/Sprites/Environment.yy",},
-    {"name":"Backdrops","order":1,"path":"folders/Sprites/Environment/Backdrops.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"AdMobIronSource","order":1,"path":"extensions/AdMobIronSource/AdMobIronSource.yy",},
@@ -84,7 +83,7 @@
     {"name":"btn_warning","order":1,"path":"sprites/btn_warning/btn_warning.yy",},
     {"name":"spr_bg_menu","order":15,"path":"sprites/spr_bg_menu/spr_bg_menu.yy",},
     {"name":"spr_btn_pause","order":2,"path":"sprites/spr_btn_pause/spr_btn_pause.yy",},
-    {"name":"spr_card_back","order":2,"path":"sprites/spr_card_back/spr_card_back.yy",},
+    {"name":"spr_card_back","order":1,"path":"sprites/spr_card_back/spr_card_back.yy",},
     {"name":"spr_chest_open","order":1,"path":"sprites/spr_chest_open/spr_chest_open.yy",},
     {"name":"spr_chest","order":10,"path":"sprites/spr_chest/spr_chest.yy",},
     {"name":"spr_endround_backdrop","order":7,"path":"sprites/spr_endround_backdrop/spr_endround_backdrop.yy",},
@@ -95,7 +94,7 @@
     {"name":"spr_main_backdrop_greengold","order":1,"path":"sprites/spr_main_backdrop_greengold/spr_main_backdrop_greengold.yy",},
     {"name":"spr_show_gem","order":4,"path":"sprites/spr_show_gem/spr_show_gem.yy",},
     {"name":"spr_show_lifesteal","order":2,"path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},
-    {"name":"spr_tile","order":1,"path":"sprites/spr_tile/spr_tile.yy",},
-    {"name":"Sprite24","order":1,"path":"sprites/Sprite24/Sprite24.yy",},
+    {"name":"spr_tile_1","order":3,"path":"sprites/spr_tile_1/spr_tile_1.yy",},
+    {"name":"spr_tile","order":2,"path":"sprites/spr_tile/spr_tile.yy",},
   ],
 }

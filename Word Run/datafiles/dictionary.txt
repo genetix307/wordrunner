@@ -2222,6 +2222,7 @@ amazes
 amazing
 amazingly
 amazonite
+amazon
 amazons
 ambary
 ambassador
@@ -9072,6 +9073,7 @@ brigandine
 brigands
 brigantine
 brigantines
+bright
 brighten
 brightened
 brightener
@@ -16902,6 +16904,7 @@ coziest
 cozily
 coziness
 cozy
+crab
 crabapple
 crabbed
 crabbedness
@@ -32198,6 +32201,7 @@ genetically
 geneticist
 geneticists
 genetics
+genetix
 genial
 geniality
 genially
@@ -64458,6 +64462,7 @@ shirttail
 shirtwaist
 shirtwaists
 shithouse
+shit
 shitted
 shitting
 shitty
