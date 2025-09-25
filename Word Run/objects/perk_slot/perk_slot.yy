@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"card_slot",
+  "%Name":"perk_slot",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -18,7 +18,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"card_slot",
+  "name":"perk_slot",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_card_back",
-    "path":"sprites/spr_card_back/spr_card_back.yy",
+    "name":"spr_perk_slot",
+    "path":"sprites/spr_perk_slot/spr_perk_slot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

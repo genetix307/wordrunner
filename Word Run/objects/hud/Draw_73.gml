@@ -10,6 +10,13 @@ draw_set_font(font_med_hud)
 draw_text_color(188,75,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_black,c_black,c_black,c_black,1)
 draw_text_color(186,73,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
+draw_set_color(c_white)
+draw_line(25,50,135,50)
+draw_line(335,50,455,50)
+draw_set_color(c_silver)
+draw_line(20,60,135,60)
+draw_line(335,60,460,60)
+
 draw_rectangle_color(70,139,410,175,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
 if flash_play>0 {draw_set_alpha(flash_play) draw_rectangle_color(70,139,410,175,c_lime,c_lime,c_lime,c_lime,false) draw_set_alpha(1)}
 draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
@@ -29,12 +36,12 @@ else {draw_text_color(172,222,string(show_valid),c_red,c_red,c_red,c_red,1)}
 
 //Show Lives
 draw_set_font(font_med_hud)
-draw_text_color(360,914,"Lives: "+calc_number(store.lives),c_black,c_black,c_black,c_black,1)
-draw_text_color(358,912,"Lives: "+calc_number(store.lives),c_yellow,c_yellow,c_yellow,c_yellow,1)
+draw_text_color(330,870,"Lives: "+calc_number(store.lives),c_black,c_black,c_black,c_black,1)
+draw_text_color(328,868,"Lives: "+calc_number(store.lives),c_yellow,c_yellow,c_yellow,c_yellow,1)
 //Show Shuffles
 draw_set_font(font_med_hud)
-draw_text_color(48,914,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
-draw_text_color(46,912,"Shuffles: "+calc_number(store.shuffles),c_yellow,c_yellow,c_yellow,c_yellow,1)
+draw_text_color(28,870,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
+draw_text_color(26,868,"Shuffles: "+calc_number(store.shuffles),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 //Draw Fade
 if show_fade>0 {
