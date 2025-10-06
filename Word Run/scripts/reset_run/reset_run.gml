@@ -6,4 +6,9 @@ store.shuffles=3
 store.current_score=0
 store.score_needed=25
 
+//Perks
+for (var i = 0; i < 99; ++i) {
+   store.perk[i]=0
+} 
+
 }

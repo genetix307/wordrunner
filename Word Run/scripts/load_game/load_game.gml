@@ -17,6 +17,11 @@ store.shuffles=ini_read_real( "save1", "shuffles",store.shuffles);
 store.current_score=ini_read_real( "save1", "current_score",store.current_score);
 store.score_needed=ini_read_real( "save1", "score_needed",store.score_needed);
 
+//Load Perk
+for (var i = 0; i < array_length(store.perk); ++i) {
+   store.perk[i]=ini_read_real( "save1", "perk"+string(i),store.perk[i]);
+}
+
 //Statistics
 //store.best_stage=ini_read_real( "save1", "best_stage",store.best_stage);
 store.total_runs=ini_read_real( "save1", "total_runs",store.total_runs);

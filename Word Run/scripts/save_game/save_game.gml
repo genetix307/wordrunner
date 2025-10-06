@@ -17,6 +17,11 @@ ini_write_real( "save1", "shuffles", store.shuffles);
 ini_write_real( "save1", "current_score", store.current_score);
 ini_write_real( "save1", "score_needed", store.score_needed);
 
+//Save Perks
+for (var i = 0; i < array_length(store.perk); ++i) {
+   ini_write_real( "save1", "card"+string(i), store.perk[i]);
+} 
+
 //Perm 
 ini_write_real( "save1", "gems", store.gems);
 ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
