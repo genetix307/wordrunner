@@ -50,6 +50,18 @@ draw_rectangle_color(0,0,room_width,room_height,c_black,c_black,c_black,c_black,
 draw_set_alpha(1)
 }
 
+//Show Perks
+if show_perks=1 {
+draw_set_color(c_dkgray)
+draw_rectangle(20,99,460,760,false)
+draw_set_color(c_silver)
+draw_rectangle(20,99,460,760,true)
+draw_set_font(font_large_hud)
+draw_text_color(138,106,"Active Perks",c_black,c_black,c_black,c_black,1)
+draw_text_color(136,104,"Active Perks",c_yellow,c_yellow,c_orange,c_orange,1)
+}
+
+
 } //End Pause Check
 
 //Draw Paused
