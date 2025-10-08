@@ -2,7 +2,6 @@ if game_paused=0 {
 var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 
-
 draw_set_font(font_large_hud)
 draw_text_color(150,40,"Round "+calc_number(store.current_round)+"/10",c_black,c_black,c_black,c_black,1)
 draw_text_color(148,38,"Round "+calc_number(store.current_round)+"/10",c_white,c_silver,c_white,c_silver,1)
@@ -42,6 +41,11 @@ draw_text_color(328,868,"Lives: "+calc_number(store.lives),c_yellow,c_yellow,c_y
 draw_set_font(font_med_hud)
 draw_text_color(28,870,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
 draw_text_color(26,868,"Shuffles: "+calc_number(store.shuffles),c_yellow,c_yellow,c_yellow,c_yellow,1)
+//Show Gems
+draw_set_font(font_med_hud)
+draw_sprite(spr_show_gem,0,16,942)
+draw_text_color(32,935,calc_number(store.gems),c_black,c_black,c_black,c_black,1)
+draw_text_color(34,933,calc_number(store.gems),c_white,c_silver,c_white,c_silver,1)
 
 //Draw Fade
 if show_fade>0 {
