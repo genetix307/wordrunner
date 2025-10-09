@@ -41,6 +41,11 @@ draw_text_color(328,868,"Lives: "+calc_number(store.lives),c_yellow,c_yellow,c_y
 draw_set_font(font_med_hud)
 draw_text_color(28,870,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
 draw_text_color(26,868,"Shuffles: "+calc_number(store.shuffles),c_yellow,c_yellow,c_yellow,c_yellow,1)
+//Show Gold
+draw_set_font(font_med_hud)
+draw_sprite(spr_show_gold,0,16,918)
+draw_text_color(32,911,calc_number(store.gold),c_black,c_black,c_black,c_black,1)
+draw_text_color(34,909,calc_number(store.gold),c_white,c_silver,c_white,c_silver,1)
 //Show Gems
 draw_set_font(font_med_hud)
 draw_sprite(spr_show_gem,0,16,942)

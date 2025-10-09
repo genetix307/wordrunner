@@ -16,6 +16,7 @@ ini_write_real( "save1", "lives", store.lives);
 ini_write_real( "save1", "shuffles", store.shuffles);
 ini_write_real( "save1", "current_score", store.current_score);
 ini_write_real( "save1", "score_needed", store.score_needed);
+ini_write_real( "save1", "gold", store.gold);
 
 //Save Perks
 for (var i = 0; i < array_length(store.perk); ++i) {

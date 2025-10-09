@@ -12,6 +12,12 @@ draw_set_font(font_med_hud)
 draw_text_color(33,380,"Acquired Perks",c_black,c_black,c_black,c_black,1)
 draw_text_color(31,378,"Acquired Perks",c_yellow,c_yellow,c_yellow,c_yellow,1)
 
+//Show Gold
+draw_set_font(font_med_hud)
+draw_sprite(spr_show_gold,0,16,918)
+draw_text_color(32,911,calc_number(store.gold),c_black,c_black,c_black,c_black,1)
+draw_text_color(34,909,calc_number(store.gold),c_white,c_silver,c_white,c_silver,1)
+
 //Show Gems
 draw_set_font(font_med_hud)
 draw_sprite(spr_show_gem,0,16,942)
