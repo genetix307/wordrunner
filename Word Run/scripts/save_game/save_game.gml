@@ -23,6 +23,11 @@ for (var i = 0; i < array_length(store.perk); ++i) {
    ini_write_real( "save1", "card"+string(i), store.perk[i]);
 } 
 
+//Save Tile ID
+for (var i = 0; i < array_length(store.tile_id); ++i) {
+   ini_write_string( "save1", "card"+string(i), store.tile_id[i]);
+} 
+
 //Perm 
 ini_write_real( "save1", "gems", store.gems);
 ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
