@@ -3,8 +3,8 @@ var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 
 draw_set_font(font_large_hud)
-draw_text_color(150,50,"Round "+calc_number(store.current_round)+"/10",c_black,c_black,c_black,c_black,1)
-draw_text_color(148,48,"Round "+calc_number(store.current_round)+"/10",c_white,c_silver,c_white,c_silver,1)
+draw_text_color(150,50,"Round "+calc_number(store.current_round)+"/"+string(store.total_rounds),c_black,c_black,c_black,c_black,1)
+draw_text_color(148,48,"Round "+calc_number(store.current_round)+"/"+string(store.total_rounds),c_white,c_silver,c_white,c_silver,1)
 draw_set_font(font_med_hud)
 draw_text_color(188,85,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_black,c_black,c_black,c_black,1)
 draw_text_color(186,83,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
