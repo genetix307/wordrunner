@@ -1,4 +1,4 @@
-if store.shuffles>0 and hud.show_perks=0 {
+if store.shuffles>0 and hud.show_perks=0 and hud.game_paused=0 {
 store.shuffles-=1
 audio_play_sound(sfx_click,1,false)
 effect_btn()

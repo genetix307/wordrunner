@@ -35,6 +35,13 @@ ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
 //Statistics
 //ini_write_real( "save1", "best_stage", store.best_stage);
 ini_write_real( "save1", "total_runs", store.total_runs);
+ini_write_real( "save1", "tier", store.tier);
+ini_write_real( "save1", "tier_best_1", store.tier_best_1);
+ini_write_real( "save1", "tier_best_2", store.tier_best_2);
+ini_write_real( "save1", "tier_best_3", store.tier_best_3);
+ini_write_real( "save1", "tier_best_4", store.tier_best_4);
+ini_write_real( "save1", "tier_best_5", store.tier_best_5);
+ini_write_real( "save1", "tier_best_6", store.tier_best_6);
 //ini_write_real( "save1", "enemies_slain", store.enemies_slain);
 //ini_write_real( "save1", "bosses_slain", store.bosses_slain);
 ini_write_real( "save1", "gems_earned", store.gems_earned);

@@ -1,4 +1,4 @@
-if store.lives>0 and hud.show_perks=0 {
+if store.lives>0 and hud.show_perks=0 and hud.game_paused=0 {
 effect_btn()
 
 if check_word() {

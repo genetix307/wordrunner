@@ -108,6 +108,13 @@ store.card_lvl_mastery=1
 */
 //Statistics
 //store.best_stage=1
+store.tier=1
+store.tier_best_1=0
+store.tier_best_2=0
+store.tier_best_3=0
+store.tier_best_4=0
+store.tier_best_5=0
+store.tier_best_6=0
 store.total_runs=0
 //store.enemies_slain=0
 //store.bosses_slain=0

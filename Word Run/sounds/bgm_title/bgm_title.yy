@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":68.76,
+  "duration":67.001205,
   "name":"bgm_title",
   "parent":{
     "name":"BGM",

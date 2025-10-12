@@ -5,6 +5,7 @@
     {"name":"Effects","order":2,"path":"folders/Scripts/Effects.yy",},
     {"name":"Perks","order":1,"path":"folders/Scripts/Perks.yy",},
     {"name":"Environment","order":2,"path":"folders/Sprites/Environment.yy",},
+    {"name":"Items","order":3,"path":"folders/Sprites/Items.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"AdMobIronSource","order":1,"path":"extensions/AdMobIronSource/AdMobIronSource.yy",},
@@ -36,6 +37,7 @@
     {"name":"btn_shuffle","order":3,"path":"objects/btn_shuffle/btn_shuffle.yy",},
     {"name":"btn_start_run","order":6,"path":"objects/btn_start_run/btn_start_run.yy",},
     {"name":"btn_statistics","order":9,"path":"objects/btn_statistics/btn_statistics.yy",},
+    {"name":"btn_tier_start","order":13,"path":"objects/btn_tier_start/btn_tier_start.yy",},
     {"name":"chest_gems","order":2,"path":"objects/chest_gems/chest_gems.yy",},
     {"name":"effect_btn_press","order":3,"path":"objects/effect_btn_press/effect_btn_press.yy",},
     {"name":"effect_confetti","order":2,"path":"objects/effect_confetti/effect_confetti.yy",},
@@ -95,7 +97,6 @@
     {"name":"spr_show_gem","order":4,"path":"sprites/spr_show_gem/spr_show_gem.yy",},
     {"name":"spr_show_gold","order":18,"path":"sprites/spr_show_gold/spr_show_gold.yy",},
     {"name":"spr_show_lifesteal","order":2,"path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},
-    {"name":"spr_tile_1","order":3,"path":"sprites/spr_tile_1/spr_tile_1.yy",},
     {"name":"spr_tile","order":2,"path":"sprites/spr_tile/spr_tile.yy",},
   ],
 }

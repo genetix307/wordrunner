@@ -3,22 +3,23 @@ var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 
 draw_set_font(font_large_hud)
-draw_text_color(150,40,"Round "+calc_number(store.current_round)+"/10",c_black,c_black,c_black,c_black,1)
-draw_text_color(148,38,"Round "+calc_number(store.current_round)+"/10",c_white,c_silver,c_white,c_silver,1)
+draw_text_color(150,50,"Round "+calc_number(store.current_round)+"/10",c_black,c_black,c_black,c_black,1)
+draw_text_color(148,48,"Round "+calc_number(store.current_round)+"/10",c_white,c_silver,c_white,c_silver,1)
 draw_set_font(font_med_hud)
-draw_text_color(188,75,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_black,c_black,c_black,c_black,1)
-draw_text_color(186,73,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
+draw_text_color(188,85,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_black,c_black,c_black,c_black,1)
+draw_text_color(186,83,"Score: "+calc_number(store.current_score)+"/"+calc_number(store.score_needed),c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 draw_set_color(c_white)
-draw_line(25,50,135,50)
-draw_line(335,50,455,50)
+draw_line(25,60,135,60)
+draw_line(335,60,455,60)
 draw_set_color(c_silver)
-draw_line(20,60,135,60)
-draw_line(335,60,460,60)
+draw_line(20,70,135,70)
+draw_line(335,70,460,70)
 
-draw_rectangle_color(70,139,410,175,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
+draw_rectangle_color(70,139,410,175,c_black,c_black,c_black,c_black,false)
+draw_rectangle_color(72,141,408,173,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
 if flash_play>0 {draw_set_alpha(flash_play) draw_rectangle_color(70,139,410,175,c_lime,c_lime,c_lime,c_lime,false) draw_set_alpha(1)}
-draw_rectangle_color(70,139,410,175,c_green,c_green,c_green,c_green,true)
+draw_rectangle_color(70,139,410,175,c_lime,c_lime,c_lime,c_lime,true)
 draw_rectangle_color(71,140,409,174,c_green,c_green,c_green,c_green,true)
 
 //Show Word
@@ -42,15 +43,19 @@ draw_set_font(font_med_hud)
 draw_text_color(28,870,"Shuffles: "+calc_number(store.shuffles),c_black,c_black,c_black,c_black,1)
 draw_text_color(26,868,"Shuffles: "+calc_number(store.shuffles),c_yellow,c_yellow,c_yellow,c_yellow,1)
 //Show Gold
+draw_set_color(c_dkgray)
+draw_roundrect(30,930,90,950,false)
 draw_set_font(font_med_hud)
 draw_sprite(spr_show_gold,0,16,942)
-draw_text_color(32,935,calc_number(store.gold),c_black,c_black,c_black,c_black,1)
-draw_text_color(34,933,calc_number(store.gold),c_white,c_silver,c_white,c_silver,1)
+draw_text_color(34,935,calc_number(store.gold),c_black,c_black,c_black,c_black,1)
+draw_text_color(32,933,calc_number(store.gold),c_white,c_silver,c_white,c_silver,1)
 //Show Gems
+draw_set_color(c_dkgray)
+draw_roundrect(130,930,190,950,false)
 draw_set_font(font_med_hud)
 draw_sprite(spr_show_gem,0,116,942)
-draw_text_color(132,935,calc_number(store.gems),c_black,c_black,c_black,c_black,1)
-draw_text_color(134,933,calc_number(store.gems),c_white,c_silver,c_white,c_silver,1)
+draw_text_color(134,935,calc_number(store.gems),c_black,c_black,c_black,c_black,1)
+draw_text_color(132,933,calc_number(store.gems),c_white,c_silver,c_white,c_silver,1)
 
 //Draw Fade
 if show_fade>0 {
