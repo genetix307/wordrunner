@@ -13,8 +13,8 @@ draw_text_color(12,888,"Round "+calc_number(store.current_round)+"/10",c_white,c
 
 //Show Perks
 draw_set_font(font_med_hud)
-draw_text_color(33,380,"Acquired Perks",c_black,c_black,c_black,c_black,1)
-draw_text_color(31,378,"Acquired Perks",c_yellow,c_yellow,c_yellow,c_yellow,1)
+//draw_text_color(33,380,"Acquired Perks",c_black,c_black,c_black,c_black,1)
+//draw_text_color(31,378,"Acquired Perks",c_yellow,c_yellow,c_yellow,c_yellow,1)
 
 //Show Gold
 draw_set_color(c_dkgray)
