@@ -1,6 +1,6 @@
 draw_set_font(font_large_hud)
-draw_text_color(133,20,"Upgrade Shop",c_black,c_black,c_black,c_black,1)
-draw_text_color(131,18,"Upgrade Shop",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(133,40,"Upgrade Shop",c_black,c_black,c_black,c_black,1)
+draw_text_color(131,38,"Upgrade Shop",c_white,c_white,c_silver,c_silver,1)
 
 draw_set_color(c_silver)
 draw_line(8,882,472,882)

@@ -16,10 +16,7 @@
     "name":"Level Up",
     "path":"folders/Objects/Menu/Level Up.yy",
   },
-  "parentObjectId":{
-    "name":"def_pause_menu_1",
-    "path":"objects/def_pause_menu_1/def_pause_menu_1.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -38,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"btn_upgrade_box",
-    "path":"sprites/btn_upgrade_box/btn_upgrade_box.yy",
+    "name":"btn_large_tab",
+    "path":"sprites/btn_large_tab/btn_large_tab.yy",
   },
   "spriteMaskId":null,
   "visible":true,

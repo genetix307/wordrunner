@@ -1,0 +1,1 @@
+alarm[1]=60 audio_play_sound(sfx_win_round,1,false)

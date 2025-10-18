@@ -44,7 +44,6 @@
     {"name":"btn_statistics","order":9,"path":"objects/btn_statistics/btn_statistics.yy",},
     {"name":"btn_tier_start","order":13,"path":"objects/btn_tier_start/btn_tier_start.yy",},
     {"name":"chest_gems","order":2,"path":"objects/chest_gems/chest_gems.yy",},
-    {"name":"def_pause_menu_1","order":1,"path":"objects/def_pause_menu_1/def_pause_menu_1.yy",},
     {"name":"effect_btn_press","order":3,"path":"objects/effect_btn_press/effect_btn_press.yy",},
     {"name":"effect_confetti","order":2,"path":"objects/effect_confetti/effect_confetti.yy",},
     {"name":"hud","order":1,"path":"objects/hud/hud.yy",},
