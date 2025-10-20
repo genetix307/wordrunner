@@ -6,5 +6,5 @@ alarm[0]=3
 greyed_out=0
 myName = "Reroll"
 showResult=""
-
+myCost=5*store.current_round
 

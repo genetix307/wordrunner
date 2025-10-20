@@ -14,6 +14,6 @@ slot_3= ceil(random(total_choices))
 
 //var cx = camera_get_view_x(view_camera[0]);
 //var cy = camera_get_view_y(view_camera[0]);
-instance_create_depth(240,380,depth-10,btn_lvl_upgrade).my_id=slot_1
-instance_create_depth(240,470,depth-10,btn_lvl_upgrade).my_id=slot_2
-instance_create_depth(240,560,depth-10,btn_lvl_upgrade).my_id=slot_3
+instance_create_depth(240,280,depth-10,btn_lvl_upgrade).my_id=slot_1
+instance_create_depth(240,370,depth-10,btn_lvl_upgrade).my_id=slot_2
+instance_create_depth(240,460,depth-10,btn_lvl_upgrade).my_id=slot_3
