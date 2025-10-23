@@ -16,23 +16,27 @@ draw_set_color(c_silver)
 draw_line(20,70,135,70)
 draw_line(335,70,460,70)
 
-draw_rectangle_color(70,139,410,175,c_black,c_black,c_black,c_black,false)
-draw_rectangle_color(72,141,408,173,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
-if flash_play>0 {draw_set_alpha(flash_play) draw_rectangle_color(70,139,410,175,c_lime,c_lime,c_lime,c_lime,false) draw_set_alpha(1)}
-draw_rectangle_color(70,139,410,175,c_lime,c_lime,c_lime,c_lime,true)
-draw_rectangle_color(71,140,409,174,c_green,c_green,c_green,c_green,true)
+draw_rectangle_color(70,139,410,183,c_black,c_black,c_black,c_black,false)
+draw_rectangle_color(73,142,407,180,c_dkgray,c_dkgray,c_dkgrey,c_dkgray,false)
+if flash_play>0 {draw_set_alpha(flash_play) draw_rectangle_color(70,139,410,183,c_lime,c_lime,c_lime,c_lime,false) draw_set_alpha(1)}
+if show_valid="Valid Word" {draw_rectangle_color(70,139,410,183,c_lime,c_lime,c_lime,c_lime,true)
+draw_rectangle_color(71,140,409,182,c_green,c_green,c_green,c_green,true)}
+else {
+	draw_rectangle_color(70,139,410,183,c_silver,c_silver,c_silver,c_silver,true)
+	draw_rectangle_color(71,140,409,182,c_navy,c_navy,c_navy,c_navy,true)}
 
 //Show Word
-draw_set_font(font_large_hud)
+draw_set_color(c_white)
+draw_set_font(font_xl_hud)
 draw_text(80,140,string(current_word))
 draw_set_font(font_med_hud)
-draw_text_color(174,180,"Base Score: "+calc_number(total_base_value),c_black,c_black,c_black,c_black,1)
-draw_text_color(172,182,"Base Score: "+calc_number(total_base_value),c_white,c_silver,c_white,c_silver,1)
-draw_text_color(174,200,"Length Bonus: "+calc_number(length_bonus),c_black,c_black,c_black,c_black,1)
-draw_text_color(172,202,"Length Bonus: "+calc_number(length_bonus),c_white,c_silver,c_white,c_silver,1)
-draw_text_color(174,220,show_valid,c_black,c_black,c_black,c_black,1)
-if show_valid="Valid Word" {draw_text_color(172,222,string(show_valid),c_lime,c_lime,c_lime,c_lime,1)}
-else {draw_text_color(172,222,string(show_valid),c_red,c_red,c_red,c_red,1)}
+draw_text_color(174,188,"Base Score: "+calc_number(total_base_value),c_black,c_black,c_black,c_black,1)
+draw_text_color(172,190,"Base Score: "+calc_number(total_base_value),c_white,c_silver,c_white,c_silver,1)
+draw_text_color(174,208,"Length Bonus: "+calc_number(length_bonus),c_black,c_black,c_black,c_black,1)
+draw_text_color(172,210,"Length Bonus: "+calc_number(length_bonus),c_white,c_silver,c_white,c_silver,1)
+draw_text_color(174,228,show_valid,c_black,c_black,c_black,c_black,1)
+if show_valid="Valid Word" {draw_text_color(172,228,string(show_valid),c_lime,c_lime,c_lime,c_lime,1)}
+else {draw_text_color(172,228,string(show_valid),c_red,c_red,c_red,c_red,1)}
 
 //Show Lives
 draw_set_font(font_med_hud)
