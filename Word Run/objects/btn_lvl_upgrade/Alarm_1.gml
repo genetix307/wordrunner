@@ -1,9 +1,9 @@
 // Genetix Studio
-if image_alpha>=1 {
+if image_alpha>=1 and greyed_out=0 {
 audio_play_sound(sfx_upgrade,1,false)
+store.gold-=myCost
+greyed_out=1
 //level_upgrade()
-//player.invincible=60
-//hud.game_paused=0
 //check_lvl_up()
 }
 

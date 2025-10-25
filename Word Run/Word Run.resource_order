@@ -109,6 +109,7 @@
     {"name":"spr_show_gem","order":4,"path":"sprites/spr_show_gem/spr_show_gem.yy",},
     {"name":"spr_show_gold","order":18,"path":"sprites/spr_show_gold/spr_show_gold.yy",},
     {"name":"spr_show_lifesteal","order":2,"path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},
+    {"name":"spr_tile_star","order":4,"path":"sprites/spr_tile_star/spr_tile_star.yy",},
     {"name":"spr_tile","order":2,"path":"sprites/spr_tile/spr_tile.yy",},
   ],
 }

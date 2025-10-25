@@ -9,3 +9,6 @@ draw_text_color(x-12,y-18,string(myID),c_black,c_black,c_black,c_black,1)
 draw_text_color(x-14,y-20,string(myID),c_white,c_silver,c_white,c_silver,1)
 
 if fade>0 {draw_set_alpha(fade) draw_rectangle(x-sprite_width/2,y-sprite_height/2,x+sprite_width/2,y+sprite_height/2,false) draw_set_alpha(1)}
+
+//Draw Specials
+if special="Star" {draw_sprite(spr_tile_star,0,x+28,y+28)}

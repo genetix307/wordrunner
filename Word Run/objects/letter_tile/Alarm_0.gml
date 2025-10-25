@@ -34,3 +34,5 @@ if myID=="W" { base_value=4; }
 if myID=="X" { base_value=8; }
 if myID=="Y" { base_value=4; }
 if myID=="Z" { base_value=10; }
+
+//if 10>random(100) {special="Star"}
