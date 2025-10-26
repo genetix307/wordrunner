@@ -27,6 +27,14 @@ for (var i = 0; i < array_length(store.perk); ++i) {
 for (var i = 0; i < array_length(store.tile_id); ++i) {
    ini_write_string( "save1", "tile_id"+string(i), store.tile_id[i]);
 } 
+//Save Tile Status
+for (var i = 0; i < array_length(store.tile_status); ++i) {
+   ini_write_string( "save1", "tile_status"+string(i), store.tile_status[i]);
+} 
+//Save Tile Base Value
+for (var i = 0; i < array_length(store.tile_base_value); ++i) {
+   ini_write_string( "save1", "tile_base_value"+string(i), store.tile_base_value[i]);
+} 
 
 //Perm 
 ini_write_real( "save1", "gems", store.gems);

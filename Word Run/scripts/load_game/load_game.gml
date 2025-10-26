@@ -27,6 +27,14 @@ for (var i = 0; i < array_length(store.perk); ++i) {
 for (var i = 0; i < array_length(store.tile_id); ++i) {
    store.tile_id[i]=ini_read_string( "save1", "tile_id"+string(i),store.tile_id[i]);
 }
+//Load tile status
+for (var i = 0; i < array_length(store.tile_status); ++i) {
+   store.tile_status[i]=ini_read_string( "save1", "tile_status"+string(i),store.tile_status[i]);
+}
+//Load tile base value
+for (var i = 0; i < array_length(store.tile_base_value); ++i) {
+   store.tile_base_value[i]=ini_read_string( "save1", "tile_base_value"+string(i),store.tile_base_value[i]);
+}
 
 //Statistics
 //store.best_stage=ini_read_real( "save1", "best_stage",store.best_stage);

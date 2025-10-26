@@ -17,5 +17,13 @@ for (var i = 0; i < 99; ++i) {
 for (var i = 0; i < 99; ++i) {
    store.tile_id[i]=""
 } 
+//Tile Status
+for (var i = 0; i < 99; ++i) {
+   store.tile_status[i]=""
+} 
+//Tile Base Value
+for (var i = 0; i < 99; ++i) {
+   store.tile_base_value[i]=0
+} 
 
 }

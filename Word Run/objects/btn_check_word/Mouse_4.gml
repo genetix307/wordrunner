@@ -11,6 +11,8 @@ if check_word() {
 	hud.length_bonus=0
 	hud.word_multiplier=1
 	with letter_tile if used=1 {alarm[0]=1 fade=1.25}
+	with letter_tile if special="Tree" {base_value+=1 store.tile_base_value[mySlot]=base_value}
+	with letter_tile {store.tile_base_value[mySlot]=base_value}
 	audio_play_sound(sfx_click,1,false)
 	instance_create_depth(190,100,-10008,show_text_score).myText=string(tmpScore)
 	hud.flash_play=1
