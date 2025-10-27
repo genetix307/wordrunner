@@ -5,7 +5,7 @@ if 50>random(100) {myID=choose("A","D","E","H","I","N","O","R","S","T");}
 image_speed=0
 used=0
 
-if store.current_round>1 {myID=store.tile_id[mySlot] special=store.tile_status[mySlot] base_value=store.tile_base_value[mySlot]}
+if store.current_round>1 {myID=store.tile_id[mySlot] special=store.tile_status[mySlot]}
 store.tile_id[mySlot]=myID
 
 if myID=="A" { base_value=1; }
@@ -34,8 +34,9 @@ if myID=="W" { base_value=4; }
 if myID=="X" { base_value=8; }
 if myID=="Y" { base_value=4; }
 if myID=="Z" { base_value=10; }
+if store.current_round>1 and special="Tree" {base_value=store.tile_base_value[mySlot]}
 store.tile_base_value[mySlot]=base_value
 
-if 10>random(100) {special="Tree"}
+//if 10>random(100) and special="" {special="Tree"}
 
 store.tile_status[mySlot]=string(special)

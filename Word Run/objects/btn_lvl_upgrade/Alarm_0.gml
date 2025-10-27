@@ -1,14 +1,14 @@
 //level_set_slot()
-if my_id=1 {myHeader="PERK 01" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=2 {myHeader="PERK 02" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=3 {myHeader="PERK 03" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=4 {myHeader="PERK 04" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=5 {myHeader="PERK 05" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=6 {myHeader="PERK 06" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=7 {myHeader="PERK 07" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=8 {myHeader="PERK 08" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=9 {myHeader="PERK 09" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=10 {myHeader="PERK 10" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=1 {myHeader="Star Spawner" myInfo="10% chance tiles drawn are Stars\nStar Tiles increase the score Multiplier" myCost=0}
+if my_id=2 {myHeader="Tree Spawner" myInfo="10% chance tiles drawn are Trees\nTree Tiles gain +1 value each Word played" myCost=0}
+if my_id=3 {myHeader="Length Matters" myInfo="Increases the Word Length bonus by +1 per letter played" myCost=0}
+if my_id=4 {myHeader="Eternal Vowels" myInfo="Vowel Tiles are worth +2 Points" myCost=0}
+if my_id=5 {myHeader="Fresh Start" myInfo="Gain +1 extra Shuffle per Round" myCost=0}
+if my_id=6 {myHeader="Focused Mind" myInfo="Gain +1 extra Play per Round" myCost=0}
+if my_id=7 {myHeader="Multiplicity" myInfo="Start each Round with +1 Multiplier" myCost=0}
+if my_id=8 {myHeader="Recycler" myInfo="Gain +1 Shuffles each time you Reroll Perks" myCost=0}
+if my_id=9 {myHeader="Shortstack" myInfo="+5 Points if Word played has 3 or less letters" myCost=0}
+if my_id=10 {myHeader="Fiver" myInfo="+5 Points if Word played is 5 letters long" myCost=0}
 if my_id=11 {myHeader="PERK 11" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 if my_id=12 {myHeader="PERK 12" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 if my_id=13 {myHeader="PERK 13" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
