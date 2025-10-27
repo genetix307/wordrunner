@@ -16,4 +16,6 @@ if my_id=14 {myHeader="PERK 14" myInfo="This perk makes it so that this game is 
 if my_id=15 {myHeader="PERK 15" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 if my_id=16 {myHeader="PERK 16" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 
+myCost=5*store.current_round+(5*store.tier)
+
 

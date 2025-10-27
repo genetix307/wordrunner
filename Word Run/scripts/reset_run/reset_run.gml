@@ -13,6 +13,11 @@ for (var i = 0; i < 99; ++i) {
    store.perk[i]=0
 } 
 
+//Perk List
+for (var i = 0; i < 99; ++i) {
+   store.perk_list[i]=""
+} 
+
 //Tile ID
 for (var i = 0; i < 99; ++i) {
    store.tile_id[i]=""

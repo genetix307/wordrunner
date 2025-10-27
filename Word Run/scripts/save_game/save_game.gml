@@ -23,6 +23,11 @@ for (var i = 0; i < array_length(store.perk); ++i) {
    ini_write_real( "save1", "perk"+string(i), store.perk[i]);
 } 
 
+//Save Perk List
+for (var i = 0; i < array_length(store.perk_list); ++i) {
+   ini_write_string( "save1", "perk_list"+string(i), store.perk_list[i]);
+} 
+
 //Save Tile ID
 for (var i = 0; i < array_length(store.tile_id); ++i) {
    ini_write_string( "save1", "tile_id"+string(i), store.tile_id[i]);
