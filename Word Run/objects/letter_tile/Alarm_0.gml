@@ -37,6 +37,10 @@ if myID=="Z" { base_value=10; }
 if store.current_round>1 and special="Tree" {base_value=store.tile_base_value[mySlot]}
 store.tile_base_value[mySlot]=base_value
 
-//if 10>random(100) and special="" {special="Tree"}
+//Star Spawner perk
+if store.perk[1]=1 and 10>random(100) and special="" {special="Star"}
+
+//Tree Spawner perk
+if store.perk[2]=1 and 10>random(100) and special="" {special="Tree"}
 
 store.tile_status[mySlot]=string(special)

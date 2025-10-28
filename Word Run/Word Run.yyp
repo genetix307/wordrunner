@@ -89,6 +89,7 @@
     {"id":{"name":"btn_privacypolicy","path":"objects/btn_privacypolicy/btn_privacypolicy.yy",},},
     {"id":{"name":"btn_rategame","path":"objects/btn_rategame/btn_rategame.yy",},},
     {"id":{"name":"btn_resume","path":"objects/btn_resume/btn_resume.yy",},},
+    {"id":{"name":"btn_run_upgrades","path":"objects/btn_run_upgrades/btn_run_upgrades.yy",},},
     {"id":{"name":"btn_set_colorscheme","path":"objects/btn_set_colorscheme/btn_set_colorscheme.yy",},},
     {"id":{"name":"btn_settings","path":"objects/btn_settings/btn_settings.yy",},},
     {"id":{"name":"btn_sfx","path":"objects/btn_sfx/btn_sfx.yy",},},

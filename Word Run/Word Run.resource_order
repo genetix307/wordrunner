@@ -36,6 +36,7 @@
     {"name":"btn_perks","order":11,"path":"objects/btn_perks/btn_perks.yy",},
     {"name":"btn_privacypolicy","order":8,"path":"objects/btn_privacypolicy/btn_privacypolicy.yy",},
     {"name":"btn_rategame","order":15,"path":"objects/btn_rategame/btn_rategame.yy",},
+    {"name":"btn_run_upgrades","order":14,"path":"objects/btn_run_upgrades/btn_run_upgrades.yy",},
     {"name":"btn_settings","order":5,"path":"objects/btn_settings/btn_settings.yy",},
     {"name":"btn_sfx","order":1,"path":"objects/btn_sfx/btn_sfx.yy",},
     {"name":"btn_shop_reroll","order":7,"path":"objects/btn_shop_reroll/btn_shop_reroll.yy",},
