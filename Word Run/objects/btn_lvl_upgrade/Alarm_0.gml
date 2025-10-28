@@ -1,6 +1,6 @@
 //level_set_slot()
-if my_id=1 {myHeader="Star Spawner" myInfo="10% chance tiles drawn are Stars\nStar Tiles increase the score Multiplier" myCost=0}
-if my_id=2 {myHeader="Tree Spawner" myInfo="10% chance tiles drawn are Trees\nTree Tiles gain +1 value each Word played" myCost=0}
+if my_id=1 {myHeader="Star Spawner" myInfo="10% chance tiles drawn are Stars - Star Tiles increase the score Multiplier" myCost=0}
+if my_id=2 {myHeader="Tree Spawner" myInfo="10% chance tiles drawn are Trees - Tree Tiles gain +1 value each Word played" myCost=0}
 if my_id=3 {myHeader="Length Matters" myInfo="Increases the Word Length bonus by +1 per letter played" myCost=0}
 if my_id=4 {myHeader="Eternal Vowels" myInfo="Vowel Tiles are worth +2 Points" myCost=0}
 if my_id=5 {myHeader="Fresh Start" myInfo="Gain +1 extra Shuffle per Round" myCost=0}
