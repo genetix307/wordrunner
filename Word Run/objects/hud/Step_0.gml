@@ -1,5 +1,7 @@
 if show_stage>0 {show_stage-=.01*store.game_speed }
 length_bonus=string_length(current_word)
+//Length matters perk
+if store.perk[3]=1 {length_bonus=string_length(current_word)*2} //(Same as +1 per letter currently
 
 //Stage Complete
 //if stage_complete=1 and game_paused=0 {

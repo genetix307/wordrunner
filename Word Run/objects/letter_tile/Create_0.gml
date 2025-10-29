@@ -6,5 +6,6 @@ base_value=0
 special=""
 image_speed=0
 fade=0
+vowel=0
 
 alarm[0]=1

@@ -25875,6 +25875,7 @@ equipped
 equipper
 equippers
 equipping
+equip
 equips
 equisetum
 equitable
