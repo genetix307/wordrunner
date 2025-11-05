@@ -4,6 +4,13 @@ var tmpScore=0
 
 if check_word() {
 	tmpScore=(hud.total_base_value+hud.length_bonus)*hud.word_multiplier
+	
+	//Shortstack Perk
+	if store.perk[9]=1 and string_length(hud.current_word)<=3 {tmpScore+=8}
+	
+	//Fiver Perk
+	if store.perk[10]=1 and string_length(hud.current_word)=5 {tmpScore+=5}
+	
     store.current_score+=tmpScore
 	store.lives-=1
 	hud.current_word=""
@@ -21,3 +28,6 @@ if check_word() {
 	audio_play_sound(sfx_error,1,false)
 }
 }
+
+//Trigger Gamover
+if store.lives<=0 and store.current_score<store.score_needed and hud.game_over=0 {hud.game_over=1 set_gameover()}

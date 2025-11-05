@@ -8,9 +8,8 @@ draw_line(12,885,468,885)
 
 //Show Round
 draw_set_font(font_large_hud)
-draw_text_color(12,890,"Round "+calc_number(store.current_round)+"/10",c_black,c_black,c_black,c_black,1)
-draw_text_color(12,888,"Round "+calc_number(store.current_round)+"/10",c_white,c_silver,c_white,c_silver,1)
-
+draw_text_color(12,890,"Round "+calc_number(store.current_round)+"/"+string(store.total_rounds),c_black,c_black,c_black,c_black,1)
+draw_text_color(12,888,"Round "+calc_number(store.current_round)+"/"+string(store.total_rounds),c_white,c_silver,c_white,c_silver,1)
 //Show Perks
 draw_set_font(font_med_hud)
 //draw_text_color(33,380,"Acquired Perks",c_black,c_black,c_black,c_black,1)

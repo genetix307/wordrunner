@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_levelup_confetti",
   "bboxMode":0,
   "bbox_bottom":2,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f6fbbe96-c3dd-4daa-96c9-b689df51bbaf","name":"f6fbbe96-c3dd-4daa-96c9-b689df51bbaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"39dab833-ae62-4e51-912e-f54113f32486","name":"39dab833-ae62-4e51-912e-f54113f32486","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6fbbe96-c3dd-4daa-96c9-b689df51bbaf","name":"f6fbbe96-c3dd-4daa-96c9-b689df51bbaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39dab833-ae62-4e51-912e-f54113f32486","name":"39dab833-ae62-4e51-912e-f54113f32486","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

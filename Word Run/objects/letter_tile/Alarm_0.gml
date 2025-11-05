@@ -4,7 +4,7 @@ if 20>random(100) {myID=choose("A","C","D","E","F","G","H","I","L","M","N","O","
 if 50>random(100) {myID=choose("A","D","E","H","I","N","O","R","S","T");}
 image_speed=0
 
-if store.current_round>1 and used=0 {myID=store.tile_id[mySlot] special=store.tile_status[mySlot]}
+if store.current_round>1 and used=0 and hud.startup>0 {myID=store.tile_id[mySlot] special=store.tile_status[mySlot]}
 store.tile_id[mySlot]=myID
 if special!="None" {special=""}
 used=0

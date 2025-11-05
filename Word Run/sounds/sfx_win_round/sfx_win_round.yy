@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"sfx_win_round",
   "audioGroupId":{
     "name":"audio_sfx",
     "path":"audiogroups/audio_sfx",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":2.0636735,
+  "exportDir":"",
   "name":"sfx_win_round",
   "parent":{
     "name":"SFX",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sfx_win_round.wav",
-  "type":0,
   "volume":1.0,
 }
