@@ -48,4 +48,7 @@ if store.perk[1]=1 and 10>random(100) and special="" {special="Star"}
 //Tree Spawner perk
 if store.perk[2]=1 and 10>random(100) and special="" {special="Tree"}
 
+//Gold Spawner perk
+if store.perk[13]=1 and 10>random(100) and special="" {special="Gold"}
+
 store.tile_status[mySlot]=string(special)

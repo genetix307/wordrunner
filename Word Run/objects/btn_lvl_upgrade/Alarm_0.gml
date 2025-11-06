@@ -9,9 +9,9 @@ if my_id=7 {myHeader="Multiplicity" myInfo="Start each Round with +1 Multiplier"
 if my_id=8 {myHeader="Recycler" myInfo="Gain +1 Shuffles each time you Reroll Perks" myCost=0}
 if my_id=9 {myHeader="Shortstack" myInfo="+8 Points if Word played has 3 or less letters" myCost=0}
 if my_id=10 {myHeader="Fiver" myInfo="+5 Points if Word played is 5 letters long" myCost=0}
-if my_id=11 {myHeader="PERK 11" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=12 {myHeader="PERK 12" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=13 {myHeader="PERK 13" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=11 {myHeader="Grand Shuffle" myInfo="Gain +2 Shuffles" myCost=0}
+if my_id=12 {myHeader="Big Heart" myInfo="Gain +1 Play" myCost=0}
+if my_id=13 {myHeader="Gold Spawner" myInfo="10% chance tiles drawn are Gold - Gold Tiles earn 10 Gold when Shuffled." myCost=0}
 if my_id=14 {myHeader="PERK 14" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 if my_id=15 {myHeader="PERK 15" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 if my_id=16 {myHeader="PERK 16" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
