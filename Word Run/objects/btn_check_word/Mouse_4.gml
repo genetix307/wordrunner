@@ -31,3 +31,4 @@ if check_word() {
 
 //Trigger Gamover
 if store.lives<=0 and store.current_score<store.score_needed and hud.game_over=0 {hud.game_over=1 set_gameover()}
+

@@ -134,5 +134,34 @@ if game_over = 1 {
 	draw_text_color(cx+144,cy+383,"Your run may have ended\nbut the journey never ends!",c_lime,c_lime,c_lime,c_lime,1)
 }
 
+//Victory
+if game_won = 1 {
+	draw_set_alpha(.8)
+	draw_set_color(c_black)
+	draw_rectangle(0,0,room_width,room_height,false)
+	draw_set_alpha(1)
+	draw_sprite(spr_endround_backdrop,0,cx+58,cy+160)
+	draw_set_font(font_large_hud)
+    draw_text_color(cx+162,cy+183,"Game Won!",c_black,c_black,c_black,c_black,.5)
+	draw_text_color(cx+161,cy+181,"Game Won!",c_lime,c_lime,c_lime,c_lime,1)
+	draw_set_font(font_buttons)
+	//draw_text_color(cx+162,cy+200,string(store.current_area),c_white,c_white,c_silver,c_silver,1)
+	//draw_text_color(cx+162,cy+220,"Best Run: "+string(store.best_stage),c_white,c_white,c_silver,c_silver,1)
+	//draw_text_color(cx+162,cy+220,"Best Run: "+string(store.best_stage),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+113,cy+254,"Stage Reached: "+string(store.current_round),c_white,c_white,c_silver,c_silver,1)
+	//draw_text_color(cx+93,cy+279,"Levels Gained: "+string(store.level),c_white,c_white,c_silver,c_silver,1)
+	//draw_text_color(cx+93,cy+304,"Enemies Slain: "+string(store.enemies_killed_run),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+162,cy+302,"Tier Multiplier: x"+string(1+floor(store.current_round/101)),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+162,cy+349,"Bonus Gems: "+string(store.gems_earned_run),c_yellow,c_yellow,c_yellow,c_orange,1)
+	//Show Gems bonuses
+	if store.current_round>1 {
+	draw_text_color(cx+296,cy+254,"+"+string(round(store.current_round*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	//draw_text_color(cx+316,cy+279,"+"+string(round(store.level*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	//draw_text_color(cx+316,cy+304,"+"+string(ceil(store.enemies_killed_run/3))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	}
+	//Show end message
+	draw_set_font(font_med_hud)
+	draw_text_color(cx+144,cy+383,"Your run was completed well\nexcellent word building!",c_lime,c_lime,c_lime,c_lime,1)
+}
 
 

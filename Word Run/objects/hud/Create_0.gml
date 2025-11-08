@@ -3,6 +3,7 @@ save_game()
 
 game_paused=0
 game_over=0
+game_won=0
 //menu_tab=0
 stage_complete=0
 show_fade=1

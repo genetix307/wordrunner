@@ -1,3 +1,7 @@
+//Trigger Win
+if store.current_round=store.total_rounds and hud.game_won=0 {hud.game_won=1 set_gamewon()}
+
+if hud.game_over=0 and hud.game_won=0 {
 store.current_round+=1
 store.score_needed=store.current_round*(10+(store.tier*15))
 store.gold+=store.current_score
@@ -12,3 +16,4 @@ if store.perk[6]=1 {store.lives+=1}
 
 save_game()
 room=rm_shop
+}
