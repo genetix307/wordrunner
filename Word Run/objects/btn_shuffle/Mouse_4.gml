@@ -4,4 +4,10 @@ audio_play_sound(sfx_click,1,false)
 effect_btn()
 
 with letter_tile if used=0 {alarm[0]=1 if special="Gold" {store.gold+=10} fade=1.25 special=""}
+
+//Perk Dividends
+if store.perk[14]=1 {store.gold+=10}
+
+//Perk Extra Life
+if store.perk[15]=1 and 10>random(100) {store.lives+=1 audio_play_sound(sfx_upgrade,1,false)}
 }

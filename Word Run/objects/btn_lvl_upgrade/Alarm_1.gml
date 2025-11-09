@@ -17,6 +17,7 @@ for (var i = 0; i < 99; i++) {
 
 if my_id=11 {store.shuffles+=2}
 if my_id=12 {store.lives+=1}
+if my_id=16 {store.gems+=25 store.gems_earned+=25}
 }
 
 

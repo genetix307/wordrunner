@@ -11,10 +11,14 @@ if my_id=9 {myHeader="Shortstack" myInfo="+8 Points if Word played has 3 or less
 if my_id=10 {myHeader="Fiver" myInfo="+5 Points if Word played is 5 letters long" myCost=0}
 if my_id=11 {myHeader="Grand Shuffle" myInfo="Gain +2 Shuffles" myCost=0}
 if my_id=12 {myHeader="Big Heart" myInfo="Gain +1 Play" myCost=0}
-if my_id=13 {myHeader="Gold Spawner" myInfo="10% chance tiles drawn are Gold - Gold Tiles earn 10 Gold when Shuffled." myCost=0}
-if my_id=14 {myHeader="PERK 14" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=15 {myHeader="PERK 15" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
-if my_id=16 {myHeader="PERK 16" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=13 {myHeader="Gold Spawner" myInfo="10% chance tiles drawn are Gold - Gold Tiles earn 10 Gold when Shuffled" myCost=0}
+if my_id=14 {myHeader="Dividends" myInfo="Gain 10 Gold everytime you Shuffle" myCost=0}
+if my_id=15 {myHeader="Extra Life" myInfo="10% to gain a Play when you Shuffle" myCost=0}
+if my_id=16 {myHeader="Soul Exchange" myInfo="Gain 25 Gems" myCost=0}
+if my_id=17 {myHeader="PERK 17" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=18 {myHeader="PERK 18" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=19 {myHeader="PERK 19" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=20 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 
 myCost=5*store.current_round+(5*store.tier)
 
