@@ -121,7 +121,7 @@ if game_over = 1 {
 	draw_text_color(cx+113,cy+254,"Stage Reached: "+string(store.current_round),c_white,c_white,c_silver,c_silver,1)
 	//draw_text_color(cx+93,cy+279,"Levels Gained: "+string(store.level),c_white,c_white,c_silver,c_silver,1)
 	//draw_text_color(cx+93,cy+304,"Enemies Slain: "+string(store.enemies_killed_run),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+162,cy+302,"Tier Multiplier: x"+string(1+floor(store.current_round/101)),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+162,cy+302,"Tier Multiplier: x"+string(store.tier),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+162,cy+349,"Bonus Gems: "+string(store.gems_earned_run),c_yellow,c_yellow,c_yellow,c_orange,1)
 	//Show Gems bonuses
 	if store.current_round>1 {
@@ -151,7 +151,7 @@ if game_won = 1 {
 	draw_text_color(cx+113,cy+254,"Stage Reached: "+string(store.current_round),c_white,c_white,c_silver,c_silver,1)
 	//draw_text_color(cx+93,cy+279,"Levels Gained: "+string(store.level),c_white,c_white,c_silver,c_silver,1)
 	//draw_text_color(cx+93,cy+304,"Enemies Slain: "+string(store.enemies_killed_run),c_white,c_white,c_silver,c_silver,1)
-	draw_text_color(cx+162,cy+302,"Tier Multiplier: x"+string(1+floor(store.current_round/101)),c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+162,cy+302,"Tier Multiplier: x"+string(store.tier),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+162,cy+349,"Bonus Gems: "+string(store.gems_earned_run),c_yellow,c_yellow,c_yellow,c_orange,1)
 	//Show Gems bonuses
 	if store.current_round>1 {

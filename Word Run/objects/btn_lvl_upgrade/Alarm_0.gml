@@ -15,7 +15,7 @@ if my_id=13 {myHeader="Gold Spawner" myInfo="10% chance tiles drawn are Gold - G
 if my_id=14 {myHeader="Dividends" myInfo="Gain 10 Gold everytime you Shuffle" myCost=0}
 if my_id=15 {myHeader="Extra Life" myInfo="10% to gain a Play when you Shuffle" myCost=0}
 if my_id=16 {myHeader="Soul Exchange" myInfo="Gain 25 Gems" myCost=0}
-if my_id=17 {myHeader="PERK 17" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=17 {myHeader="Forestry" myInfo="Tree Tiles Gain +1 Value when you Shuffle" myCost=0}
 if my_id=18 {myHeader="PERK 18" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 if my_id=19 {myHeader="PERK 19" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 if my_id=20 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}

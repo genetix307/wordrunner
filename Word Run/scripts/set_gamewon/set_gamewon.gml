@@ -15,6 +15,7 @@ if store.tier=5 {store.tier_best_5=1}
 //store.gems_earned_run=(store.current_stage*5)+(store.level*10)+ceil(store.enemies_killed_run/3)
 store.gems_earned_run=store.current_round*10
 if store.current_round<=1 {store.gems_earned_run=0}
+store.gems_earned_run*=store.tier
 store.gems+=store.gems_earned_run
 store.gems_earned=store.gems_earned_run
 

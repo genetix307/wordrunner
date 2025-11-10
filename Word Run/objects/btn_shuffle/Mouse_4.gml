@@ -10,4 +10,8 @@ if store.perk[14]=1 {store.gold+=10}
 
 //Perk Extra Life
 if store.perk[15]=1 and 10>random(100) {store.lives+=1 audio_play_sound(sfx_upgrade,1,false)}
+
+//Perk Forestry
+if store.perk[17]=1 {with letter_tile if special="Tree" {base_value+=1}}
+
 }

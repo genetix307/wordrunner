@@ -6,6 +6,11 @@ draw_set_color(c_silver)
 draw_line(8,882,472,882)
 draw_line(12,885,468,885)
 
+//Show Plays and Shuffles
+draw_set_font(font_med_hud)
+draw_text_color(154,865,"Plays: "+string(store.lives)+ "     Shuffles: "+string(store.shuffles),c_black,c_black,c_black,c_black,1)
+draw_text_color(152,863,"Plays: "+string(store.lives)+ "     Shuffles: "+string(store.shuffles),c_yellow,c_yellow,c_yellow,c_yellow,1)
+
 //Show Round
 draw_set_font(font_large_hud)
 draw_text_color(12,890,"Round "+calc_number(store.current_round)+"/"+string(store.total_rounds),c_black,c_black,c_black,c_black,1)
