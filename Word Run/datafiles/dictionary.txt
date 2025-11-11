@@ -17548,6 +17548,7 @@ crowfeet
 crowfoot
 crowfoots
 crowing
+crown
 crowned
 crowner
 crowners

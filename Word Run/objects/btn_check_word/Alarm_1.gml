@@ -14,6 +14,9 @@ if store.perk[5]=1 {store.shuffles+=1}
 //Focused Mind Perk
 if store.perk[6]=1 {store.lives+=1}
 
+//Leftovers Perk
+if store.perk[18]=1 {store.gold+=5*store.lives}
+
 save_game()
 room=rm_shop
 }
