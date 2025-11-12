@@ -12,7 +12,10 @@ if check_word() {
 	if store.perk[10]=1 and string_length(hud.current_word)=5 {tmpScore+=5}
 	
     store.current_score+=tmpScore
+	if store.current_score>=store.best_scoring_word {store.best_scoring_word=store.current_score} //Set Stat
+	if string_length(hud.current_word)>=store.longest_word_count {store.longest_word=hud.current_word}
 	store.lives-=1
+	store.words_played+=1
 	hud.current_word=""
 	hud.total_base_value=0
 	hud.length_bonus=0

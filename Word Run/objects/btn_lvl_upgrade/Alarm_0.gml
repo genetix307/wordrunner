@@ -17,7 +17,7 @@ if my_id=15 {myHeader="Extra Life" myInfo="10% to gain a Play when you Shuffle" 
 if my_id=16 {myHeader="Soul Exchange" myInfo="Gain 25 Gems" myCost=0}
 if my_id=17 {myHeader="Forestry" myInfo="Tree Tiles Gain +1 Value when you Shuffle" myCost=0}
 if my_id=18 {myHeader="Leftovers" myInfo="Gain 5 Gold for each unused Play at the end of each Round" myCost=0}
-if my_id=19 {myHeader="PERK 19" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=19 {myHeader="Solid Hand" myInfo="Gain +1 Play each Round if no Shuffles were used" myCost=0}
 if my_id=20 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 
 myCost=5*store.current_round+(5*store.tier)

@@ -48,6 +48,12 @@ ini_write_real( "save1", "max_gamespeed", store.max_gamespeed);
 //Statistics
 //ini_write_real( "save1", "best_stage", store.best_stage);
 ini_write_real( "save1", "total_runs", store.total_runs);
+ini_write_real( "save1", "best_scoring_word", store.best_scoring_word);
+ini_write_string( "save1", "longest_word", store.longest_word);
+ini_write_string( "save1", "longest_word_count", store.longest_word_count);
+ini_write_real( "save1", "words_played", store.words_played);
+ini_write_real( "save1", "shuffles_used", store.shuffles_used);
+
 ini_write_real( "save1", "tier", store.tier);
 ini_write_real( "save1", "tier_best_1", store.tier_best_1);
 ini_write_real( "save1", "tier_best_2", store.tier_best_2);

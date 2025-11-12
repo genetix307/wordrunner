@@ -44,6 +44,12 @@ for (var i = 0; i < array_length(store.tile_base_value); ++i) {
 //Statistics
 //store.best_stage=ini_read_real( "save1", "best_stage",store.best_stage);
 store.total_runs=ini_read_real( "save1", "total_runs",store.total_runs);
+store.best_scoring_word=ini_read_real( "save1", "best_scoring_word",store.best_scoring_word);
+store.longest_word=ini_read_string( "save1", "longest_word",store.longest_word);
+store.longest_word_count=ini_read_string( "save1", "longest_word_count",store.longest_word_count);
+store.words_played=ini_read_real( "save1", "words_played",store.words_played);
+store.shuffles_used=ini_read_real( "save1", "shuffles_used",store.shuffles_used);
+
 store.tier=ini_read_real( "save1", "tier",store.tier);
 store.tier_best_1=ini_read_real( "save1", "tier_best_1",store.tier_best_1);
 store.tier_best_2=ini_read_real( "save1", "tier_best_2",store.tier_best_2);

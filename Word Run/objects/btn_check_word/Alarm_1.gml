@@ -17,6 +17,9 @@ if store.perk[6]=1 {store.lives+=1}
 //Leftovers Perk
 if store.perk[18]=1 {store.gold+=5*store.lives}
 
+//Solid Hand Perk
+if store.perk[19]=1 and btn_shuffle.shuffle_used_round=0 {store.lives+=1}
+
 save_game()
 room=rm_shop
 }
