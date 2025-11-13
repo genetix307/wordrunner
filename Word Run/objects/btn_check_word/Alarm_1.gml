@@ -3,7 +3,7 @@ if store.current_round=store.total_rounds and hud.game_won=0 {hud.game_won=1 set
 
 if hud.game_over=0 and hud.game_won=0 {
 store.current_round+=1
-store.score_needed=store.current_round*(10+(store.tier*15))
+store.score_needed=store.current_round*(15+(store.tier*10))
 store.gold+=store.current_score
 store.current_score=0
 store.lives+=3
