@@ -18,10 +18,13 @@ show_valid=""
 flash_play=0
 show_perks=0
 startup=10 //Short check at start of round to set tiles to stored values
+hearts_played=0
 
 //Multiplicity Perk
 if store.perk[7]=1 {word_multiplier+=1}
 
+//Saver Perk
+if store.perk[20]=1 {store.current_score+=round(store.gold/10)}
 
 
 

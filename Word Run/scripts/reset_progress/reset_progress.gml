@@ -9,6 +9,15 @@ store.show_rating=0
 store.gems=0
 store.gems_earned=0
 
+//Perm Upgrades
+perm_star_spawn=0
+perm_tree_spawn=0
+perm_gold_spawn=0
+perm_heart_spawn=0
+perm_start_plays=4
+perm_start_shuffles=3
+perm_start_gold=0
+
 //Game Settings
 store.color_scheme=4
 store.sfx_volume=1

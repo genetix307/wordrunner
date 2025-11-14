@@ -190,6 +190,7 @@
     {"id":{"name":"spr_show_gem","path":"sprites/spr_show_gem/spr_show_gem.yy",},},
     {"id":{"name":"spr_show_gold","path":"sprites/spr_show_gold/spr_show_gold.yy",},},
     {"id":{"name":"spr_show_lifesteal","path":"sprites/spr_show_lifesteal/spr_show_lifesteal.yy",},},
+    {"id":{"name":"spr_tile_heart","path":"sprites/spr_tile_heart/spr_tile_heart.yy",},},
     {"id":{"name":"spr_tile_star","path":"sprites/spr_tile_star/spr_tile_star.yy",},},
     {"id":{"name":"spr_tile_tree","path":"sprites/spr_tile_tree/spr_tile_tree.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},

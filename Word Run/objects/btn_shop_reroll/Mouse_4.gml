@@ -11,4 +11,7 @@ alarm[0]=3
 
 //Recycler Perk
 if store.perk[8]=1 {store.shuffles+=1}
+
+//Life Roll Perk
+if store.perk[21]=1 and 10>random(100) {store.lives+=1 instance_create_depth(x-80,y-100,depth-10,show_text_yellow).myText="+1 Play"}
 }

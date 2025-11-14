@@ -10,7 +10,7 @@ postStat = ""
 nextStat = 0
 showNextStat=0
 myCost = 0
-myCap = 999999999
+myCap = 99
 capped=0
 mylvl=0
 

@@ -8,6 +8,9 @@ if check_word() {
 	//Shortstack Perk
 	if store.perk[9]=1 and string_length(hud.current_word)<=3 {tmpScore+=8}
 	
+	//Seven Up Perk
+	if store.perk[23]=1 and string_length(hud.current_word)>=7 {tmpScore+=7}
+	
 	//Fiver Perk
 	if store.perk[10]=1 and string_length(hud.current_word)=5 {tmpScore+=5}
 	
@@ -20,6 +23,8 @@ if check_word() {
 	hud.total_base_value=0
 	hud.length_bonus=0
 	hud.word_multiplier=1
+	store.lives+=hud.hearts_played
+	hud.hearts_played=0
 	with letter_tile if used=1 {alarm[0]=3 fade=1.5 special=""}
 	with letter_tile if special="Tree" and used=0 {base_value+=1 store.tile_base_value[mySlot]=base_value}
 	with letter_tile {store.tile_base_value[mySlot]=base_value if special="" and used=0 {special="None"}}

@@ -4,7 +4,8 @@ if 20>random(100) {myID=choose("A","C","D","E","F","G","H","I","L","M","N","O","
 if 50>random(100) {myID=choose("A","D","E","H","I","N","O","R","S","T");}
 image_speed=0
 
-if store.current_round>1 and used=0 and hud.startup>0 {myID=store.tile_id[mySlot] special=store.tile_status[mySlot]}
+if store.current_round>1 and used=0 and hud.startup>0 {myID=store.tile_id[mySlot] special=store.tile_status[mySlot] base_value=store.tile_base_value[mySlot]}
+else {
 store.tile_id[mySlot]=myID
 if special!="None" {special=""}
 used=0
@@ -42,13 +43,17 @@ if store.perk[4]=1 {if vowel=1 {base_value+=2}}
 if store.current_round>1 and special="Tree" {base_value=store.tile_base_value[mySlot]}
 store.tile_base_value[mySlot]=base_value
 
-//Star Spawner perk
-if store.perk[1]=1 and 10>random(100) and special="" {special="Star"}
-
 //Tree Spawner perk
-if store.perk[2]=1 and 10>random(100) and special="" {special="Tree"}
+if store.perk[2]=1 and (10+store.perm_tree_spawn)>random(100) and special="" {special="Tree"}
 
 //Gold Spawner perk
-if store.perk[13]=1 and 10>random(100) and special="" {special="Gold"}
+if store.perk[13]=1 and (10+store.perm_gold_spawn)>random(100) and special="" {special="Gold"}
+
+//Star Spawner perk
+if store.perk[1]=1 and (10+store.perm_star_spawn)>random(100) and special="" {special="Star"}
+
+//Heart Spawner perk
+if store.perk[22]=1 and (3+store.perm_heart_spawn)>random(100) and special="" {special="Heart"}
 
 store.tile_status[mySlot]=string(special)
+}

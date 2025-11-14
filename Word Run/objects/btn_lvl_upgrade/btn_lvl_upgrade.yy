@@ -13,8 +13,8 @@
   "name":"btn_lvl_upgrade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Up",
-    "path":"folders/Objects/Menu/Level Up.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,

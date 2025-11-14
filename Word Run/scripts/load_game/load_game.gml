@@ -18,6 +18,14 @@ store.current_score=ini_read_real( "save1", "current_score",store.current_score)
 store.score_needed=ini_read_real( "save1", "score_needed",store.score_needed);
 store.gold=ini_read_real( "save1", "gold",store.gold);
 
+//Perm Upgrades
+store.perm_star_spawn=ini_read_real( "save1", "perm_star_spawn",store.perm_star_spawn);
+store.perm_gold_spawn=ini_read_real( "save1", "perm_gold_spawn",store.perm_gold_spawn);
+store.perm_heart_spawn=ini_read_real( "save1", "perm_heart_spawn",store.perm_heart_spawn);
+store.perm_start_plays=ini_read_real( "save1", "perm_start_plays",store.perm_start_plays);
+store.perm_start_shuffles=ini_read_real( "save1", "perm_start_shuffles",store.perm_start_shuffles);
+store.perm_start_gold=ini_read_real( "save1", "perm_start_gold",store.perm_start_gold);
+
 //Load Perk
 for (var i = 0; i < array_length(store.perk); ++i) {
    store.perk[i]=ini_read_real( "save1", "perk"+string(i),store.perk[i]);

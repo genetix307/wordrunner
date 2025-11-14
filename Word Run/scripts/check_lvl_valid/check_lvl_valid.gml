@@ -8,6 +8,10 @@ return true
 if store.perk[slot]=12 {
 return true
 }
+
+if store.perk[slot]=16 {
+return true
+}
 	
 if store.perk[slot]>0 {
 return false

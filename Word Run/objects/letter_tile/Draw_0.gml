@@ -14,3 +14,4 @@ if fade>0 {draw_set_alpha(fade) draw_rectangle(x-sprite_width/2,y-sprite_height/
 if special="Star" {draw_sprite(spr_tile_star,0,x+28,y+28)}
 if special="Tree" {draw_sprite(spr_tile_tree,0,x+28,y+28)}
 if special="Gold" {draw_sprite(spr_show_gold,0,x+28,y+28)}
+if special="Heart" {draw_sprite(spr_tile_heart,0,x+28,y+28)}

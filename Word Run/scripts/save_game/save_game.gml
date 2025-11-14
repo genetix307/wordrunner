@@ -18,6 +18,14 @@ ini_write_real( "save1", "current_score", store.current_score);
 ini_write_real( "save1", "score_needed", store.score_needed);
 ini_write_real( "save1", "gold", store.gold);
 
+//Perm Upgrades
+ini_write_real( "save1", "perm_star_spawn", store.perm_star_spawn);
+ini_write_real( "save1", "perm_gold_spawn", store.perm_gold_spawn);
+ini_write_real( "save1", "perm_heart_spawn", store.perm_heart_spawn);
+ini_write_real( "save1", "perm_start_plays", store.perm_start_plays);
+ini_write_real( "save1", "perm_start_shuffles", store.perm_start_shuffles);
+ini_write_real( "save1", "perm_start_gold", store.perm_start_gold);
+
 //Save Perks
 for (var i = 0; i < array_length(store.perk); ++i) {
    ini_write_real( "save1", "perk"+string(i), store.perk[i]);
