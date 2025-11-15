@@ -18,6 +18,14 @@ perm_start_plays=4
 perm_start_shuffles=3
 perm_start_gold=0
 
+perm_lvl_star_spawn=1
+perm_lvl_tree_spawn=1
+perm_lvl_gold_spawn=1
+perm_lvl_heart_spawn=1
+perm_lvl_start_plays=1
+perm_lvl_start_shuffles=1
+perm_lvl_start_gold=1
+
 //Game Settings
 store.color_scheme=4
 store.sfx_volume=1

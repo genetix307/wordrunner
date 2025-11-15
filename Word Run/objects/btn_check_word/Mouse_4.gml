@@ -7,10 +7,8 @@ if check_word() {
 	
 	//Shortstack Perk
 	if store.perk[9]=1 and string_length(hud.current_word)<=3 {tmpScore+=8}
-	
 	//Seven Up Perk
 	if store.perk[23]=1 and string_length(hud.current_word)>=7 {tmpScore+=7}
-	
 	//Fiver Perk
 	if store.perk[10]=1 and string_length(hud.current_word)=5 {tmpScore+=5}
 	

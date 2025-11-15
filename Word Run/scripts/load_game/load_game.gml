@@ -26,6 +26,13 @@ store.perm_start_plays=ini_read_real( "save1", "perm_start_plays",store.perm_sta
 store.perm_start_shuffles=ini_read_real( "save1", "perm_start_shuffles",store.perm_start_shuffles);
 store.perm_start_gold=ini_read_real( "save1", "perm_start_gold",store.perm_start_gold);
 
+store.perm_lvl_star_spawn=ini_read_real( "save1", "perm_lvl_star_spawn",store.perm_lvl_star_spawn);
+store.perm_lvl_gold_spawn=ini_read_real( "save1", "perm_lvl_gold_spawn",store.perm_lvl_gold_spawn);
+store.perm_lvl_heart_spawn=ini_read_real( "save1", "perm_lvl_heart_spawn",store.perm_lvl_heart_spawn);
+store.perm_lvl_start_plays=ini_read_real( "save1", "perm_lvl_start_plays",store.perm_lvl_start_plays);
+store.perm_lvl_start_shuffles=ini_read_real( "save1", "perm_lvl_start_shuffles",store.perm_lvl_start_shuffles);
+store.perm_lvl_start_gold=ini_read_real( "save1", "perm_lvl_start_gold",store.perm_lvl_start_gold);
+
 //Load Perk
 for (var i = 0; i < array_length(store.perk); ++i) {
    store.perk[i]=ini_read_real( "save1", "perk"+string(i),store.perk[i]);

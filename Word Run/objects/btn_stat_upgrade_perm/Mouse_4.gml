@@ -11,13 +11,23 @@ freeUpgrade=0
 if greyed_out=0 and capped=0 {
 if freeUpgrade=0 {store.gems-=myCost}
 
-//if myID=1 {store.perm_attack_range+=nextStat store.lvl_perm_attack_range+=1 store.cost_perm_attack_range+=ceil(store.lvl_perm_attack_range)*5}
-//if myID=2 {store.perm_knockback+=nextStat store.lvl_perm_knockback+=1 store.cost_perm_knockback+=ceil(store.lvl_perm_knockback*2)*5}
-//if myID=3 {store.perm_attack_speed+=nextStat store.lvl_perm_attack_speed+=1 store.cost_perm_attack_speed+=ceil(store.lvl_perm_attack_speed)*25}
-//if myID=4 {store.perm_critical_multiplier+=nextStat store.lvl_perm_critical_multiplier+=1 store.cost_perm_critical_multiplier+=ceil(store.lvl_perm_critical_multiplier)*5}
-//if myID=5 {store.perm_attack_damage+=nextStat store.lvl_perm_attack_damage+=1 store.cost_perm_attack_damage+=ceil(store.lvl_perm_attack_damage)*5}
-//if myID=6 {store.perm_critical_chance+=nextStat store.lvl_perm_critical_chance+=1 store.cost_perm_critical_chance+=ceil(store.lvl_perm_critical_chance)*5}
+if myID=1 {store.perm_star_spawn+=nextStat store.perm_lvl_star_spawn+=1}
+if myID=2 {store.perm_tree_spawn+=nextStat store.perm_lvl_tree_spawn+=1}
+if myID=3 {store.perm_gold_spawn+=nextStat store.perm_lvl_gold_spawn+=1}
+if myID=4 {store.perm_heart_spawn+=nextStat store.perm_lvl_heart_spawn+=1}
+if myID=5 {store.perm_start_plays+=nextStat store.perm_lvl_start_plays+=1}
+if myID=6 {store.perm_start_shuffles+=nextStat store.perm_lvl_start_shuffles+=1}
+if myID=7 {store.perm_start_gold+=nextStat store.perm_lvl_start_gold+=1}
 
 }
 
 save_game()
+
+//Perm Upgrades
+//perm_star_spawn=0
+//perm_tree_spawn=0
+//perm_gold_spawn=0
+//perm_heart_spawn=0
+//perm_start_plays=4
+//perm_start_shuffles=3
+//perm_start_gold=0

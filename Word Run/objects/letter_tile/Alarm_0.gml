@@ -43,17 +43,22 @@ if store.perk[4]=1 {if vowel=1 {base_value+=2}}
 if store.current_round>1 and special="Tree" {base_value=store.tile_base_value[mySlot]}
 store.tile_base_value[mySlot]=base_value
 
+if store.perm_tree_spawn>random(100) and special="" {special="Tree"}
+if store.perm_gold_spawn>random(100) and special="" {special="Gold"}
+if store.perm_star_spawn>random(100) and special="" {special="Star"}
+if store.perm_heart_spawn>random(100) and special="" {special="Heart"}
+
 //Tree Spawner perk
-if store.perk[2]=1 and (10+store.perm_tree_spawn)>random(100) and special="" {special="Tree"}
+if store.perk[2]=1 and (10)>random(100) and special="" {special="Tree"}
 
 //Gold Spawner perk
-if store.perk[13]=1 and (10+store.perm_gold_spawn)>random(100) and special="" {special="Gold"}
+if store.perk[13]=1 and (10)>random(100) and special="" {special="Gold"}
 
 //Star Spawner perk
-if store.perk[1]=1 and (10+store.perm_star_spawn)>random(100) and special="" {special="Star"}
+if store.perk[1]=1 and (10)>random(100) and special="" {special="Star"}
 
 //Heart Spawner perk
-if store.perk[22]=1 and (3+store.perm_heart_spawn)>random(100) and special="" {special="Heart"}
+if store.perk[22]=1 and (3)>random(100) and special="" {special="Heart"}
 
 store.tile_status[mySlot]=string(special)
 }
