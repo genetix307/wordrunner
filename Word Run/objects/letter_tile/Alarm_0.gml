@@ -40,6 +40,9 @@ if myID=="Z" { base_value=10; }
 //Eternal Vowels Perk
 if store.perk[4]=1 {if vowel=1 {base_value+=2}}
 
+//Consonant Perk
+if store.perk[25]=1 {if vowel=0 {base_value+=1}}
+
 if store.current_round>1 and special="Tree" {base_value=store.tile_base_value[mySlot]}
 store.tile_base_value[mySlot]=base_value
 

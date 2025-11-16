@@ -23,7 +23,11 @@ if my_id=21 {myHeader="Life Roll" myInfo="When you Reroll Perks, 10% chance to g
 if my_id=22 {myHeader="Heart Spawner" myInfo="+3% chance tiles drawn are Hearts - Heart tiles give +1 Plays when played" myCost=0}
 if my_id=23 {myHeader="Seven Up" myInfo="+7 Points if Word played is 7 Letters or longer" myCost=0}
 if my_id=24 {myHeader="Shuffleplier" myInfo="When you Shuffle, 50% Chance to gain +1 Multiplier" myCost=0}
-if my_id=25 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=25 {myHeader="Consonant King" myInfo="Consonant Tiles are worth +1 Point" myCost=0}
+if my_id=26 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=27 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=28 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
+if my_id=29 {myHeader="PERK 20" myInfo="This perk makes it so that this game is better when you roll" myCost=0}
 
 myCost=5*store.current_round+(5*store.tier)
 
