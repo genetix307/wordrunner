@@ -10,21 +10,21 @@ store.gems=0
 store.gems_earned=0
 
 //Perm Upgrades
-perm_star_spawn=0
-perm_tree_spawn=0
-perm_gold_spawn=0
-perm_heart_spawn=0
-perm_start_plays=4
-perm_start_shuffles=3
-perm_start_gold=0
+store.perm_star_spawn=0
+store.perm_tree_spawn=0
+store.perm_gold_spawn=0
+store.perm_heart_spawn=0
+store.perm_start_plays=4
+store.perm_start_shuffles=3
+store.perm_start_gold=0
 
-perm_lvl_star_spawn=1
-perm_lvl_tree_spawn=1
-perm_lvl_gold_spawn=1
-perm_lvl_heart_spawn=1
-perm_lvl_start_plays=1
-perm_lvl_start_shuffles=1
-perm_lvl_start_gold=1
+store.perm_lvl_star_spawn=1
+store.perm_lvl_tree_spawn=1
+store.perm_lvl_gold_spawn=1
+store.perm_lvl_heart_spawn=1
+store.perm_lvl_start_plays=1
+store.perm_lvl_start_shuffles=1
+store.perm_lvl_start_gold=1
 
 //Game Settings
 store.color_scheme=4

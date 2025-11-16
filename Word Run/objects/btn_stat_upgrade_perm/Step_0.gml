@@ -6,6 +6,7 @@ if myID=5 {myName = "Starting Plays" myStat=store.perm_start_plays myCost=(50+my
 if myID=6 {myName = "Starting Shuffles" myStat=calc_number(store.perm_start_shuffles) postStat="" myCost=(50+mylvl*50) nextStat=1 myCap=15 mylvl=store.perm_lvl_start_shuffles}
 if myID=7 {myName = "Starting Gold" myStat=store.perm_start_gold myCost=(50+mylvl*50) nextStat=10 myCap=500 mylvl=store.perm_lvl_start_gold}
 
+if mylvl>2 {myCost+=50}
 if mylvl>2 {myCost+=mylvl*25}
 if mylvl>3 {myCost+=mylvl*50}
 if mylvl>4 {myCost+=mylvl*75}
@@ -15,6 +16,7 @@ if mylvl>7 {myCost+=mylvl*250}
 if mylvl>8 {myCost+=mylvl*500}
 if mylvl>9 {myCost+=mylvl*750}
 if mylvl>10 {myCost+=mylvl*1000}
+if mylvl>11 {myCost+=mylvl*3000}
 
 if myCost>store.gems {greyed_out=1} else {greyed_out=0}
 if mylvl>=myCap {capped=1}

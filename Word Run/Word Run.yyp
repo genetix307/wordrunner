@@ -101,6 +101,7 @@
     {"id":{"name":"btn_statistics","path":"objects/btn_statistics/btn_statistics.yy",},},
     {"id":{"name":"btn_tier_start","path":"objects/btn_tier_start/btn_tier_start.yy",},},
     {"id":{"name":"chest_gems","path":"objects/chest_gems/chest_gems.yy",},},
+    {"id":{"name":"chest_gold","path":"objects/chest_gold/chest_gold.yy",},},
     {"id":{"name":"def_pause_menu","path":"objects/def_pause_menu/def_pause_menu.yy",},},
     {"id":{"name":"effect_btn_press","path":"objects/effect_btn_press/effect_btn_press.yy",},},
     {"id":{"name":"effect_challenge","path":"objects/effect_challenge/effect_challenge.yy",},},

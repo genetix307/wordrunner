@@ -16,4 +16,7 @@ if store.perk[15]=1 and 10>random(100) {store.lives+=1 audio_play_sound(sfx_upgr
 //Perk Forestry
 if store.perk[17]=1 {with letter_tile if special="Tree" {base_value+=1}}
 
+//Perk Shuffleplier
+if store.perk[24]=1 and 50>random(100) {hud.word_multiplier+=1}
+
 }

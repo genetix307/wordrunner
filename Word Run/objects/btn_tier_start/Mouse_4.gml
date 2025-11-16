@@ -7,5 +7,6 @@ effect_btn()
 store.tier=myTier
 store.total_rounds=2+(store.tier*2)
 store.score_needed=20+(store.tier*5)
+ad_load_interstitial()
 room=rm_maingame
 }
