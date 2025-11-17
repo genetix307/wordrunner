@@ -50,6 +50,7 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"dictionary_old.txt","CopyToMask":-1,"filePath":"datafiles","name":"dictionary_old.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"dictionary.txt","CopyToMask":-1,"filePath":"datafiles","name":"dictionary.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
