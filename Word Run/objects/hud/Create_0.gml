@@ -14,6 +14,7 @@ current_word=""
 total_base_value=0
 length_bonus=0
 word_multiplier=1
+tmp_multiplier=0
 show_valid=""
 flash_play=0
 show_perks=0
